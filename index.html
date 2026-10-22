@@ -1,0 +1,508 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>青岛教育情报总览</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"Microsoft YaHei",Segoe UI,sans-serif;background:#f5f7fa;color:#1f2937;line-height:1.75}
+.wrap{display:flex;max-width:1240px;margin:0 auto;gap:24px;padding:24px}
+.side{width:210px;flex:0 0 210px;position:sticky;top:24px;align-self:flex-start;max-height:calc(100vh - 48px);overflow:auto;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px}
+.side h3{margin:4px 8px 12px;font-size:14px;color:#6b7280;font-weight:600}
+.nav-item{display:flex;align-items:center;gap:6px;padding:8px 10px;border-radius:8px;text-decoration:none;color:#374151;font-size:13px}
+.nav-item:hover{background:#eff6ff}
+.nav-item .nd{font-weight:600}
+.nav-item .nt{color:#9ca3af;font-size:12px}
+.dot{width:7px;height:7px;border-radius:50%;background:#dc2626;margin-left:auto}
+.main{flex:1;min-width:0}
+.hero{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:14px;padding:22px 26px;margin-bottom:20px}
+.hero h1{margin:0 0 6px;font-size:22px}
+.hero p{margin:0;opacity:.9;font-size:13px}
+.doc{background:#fff;border:1px solid #e5e7eb;border-radius:12px;margin-bottom:18px;overflow:hidden}
+.doc-hd{padding:14px 20px;border-bottom:1px solid #f0f2f5;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.doc-hd h2{margin:0;font-size:17px}
+.tag{font-size:12px;background:#eff6ff;color:#2563eb;padding:2px 8px;border-radius:6px;font-weight:400;margin-left:6px}
+.badge{font-size:12px;background:#fef2f2;color:#dc2626;padding:2px 8px;border-radius:6px;font-weight:400;margin-left:6px}
+.mt{font-size:12px;color:#9ca3af}
+.doc-bd{padding:6px 20px 20px}
+.warn{background:#fef2f2;border:1px solid #fecaca;color:#b91c1c;padding:10px 14px;border-radius:10px;margin-bottom:18px;font-size:13px}
+h3,h4{color:#111827;margin-top:20px}
+h3{font-size:15px}
+p{margin:8px 0}
+.tw{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:560px}
+th{background:#f8fafc;text-align:left;padding:9px 12px;border:1px solid #e5e7eb;font-weight:600;white-space:nowrap}
+td{padding:9px 12px;border:1px solid #e5e7eb;vertical-align:top}
+tr:nth-child(even) td{background:#fcfcfd}
+ul,ol{padding-left:22px;margin:8px 0}
+li{margin:4px 0}
+blockquote{border-left:3px solid #93c5fd;background:#f8fafc;margin:12px 0;padding:10px 14px;color:#4b5563;font-size:13px}
+hr{border:0;border-top:1px solid #eef0f3;margin:18px 0}
+.note{font-size:12px;color:#9ca3af;font-style:italic}
+code{background:#f3f4f6;padding:1px 5px;border-radius:4px;font-size:12px}
+@media(max-width:800px){.wrap{flex-direction:column;padding:12px}.side{width:100%;flex:none;position:static;max-height:none}}
+</style></head><body>
+<div class="wrap">
+<aside class="side"><h3>共 23 期 · 最新在上</h3><a class="nav-item" href="#d20261017"><span class="nd">2026-10-17</span><span class="nt">08点档</span><i class="dot"></i></a><a class="nav-item" href="#d20261011"><span class="nd">2026-10-11</span><span class="nt">08点档</span></a><a class="nav-item" href="#d20261010"><span class="nd">2026-10-10</span><span class="nt">08点档</span></a><a class="nav-item" href="#d20261007"><span class="nd">2026-10-07</span><span class="nt">20点档</span><i class="dot"></i></a><a class="nav-item" href="#d20261006"><span class="nd">2026-10-06</span><span class="nt">08点档</span></a><a class="nav-item" href="#d20261005"><span class="nd">2026-10-05</span><span class="nt">08点档</span><i class="dot"></i></a><a class="nav-item" href="#d20260925"><span class="nd">2026-09-25</span><span class="nt">08点档</span></a><a class="nav-item" href="#d20260919"><span class="nd">2026-09-19</span><span class="nt">08点档</span></a><a class="nav-item" href="#d20260918"><span class="nd">2026-09-18</span><span class="nt">20点档</span></a><a class="nav-item" href="#d20260913"><span class="nd">2026-09-13</span><span class="nt">08点档</span></a><a class="nav-item" href="#d20260911"><span class="nd">2026-09-11</span><span class="nt">20点档</span></a><a class="nav-item" href="#d20260910"><span class="nd">2026-09-10</span><span class="nt">08点档</span></a><a class="nav-item" href="#d20260826"><span class="nd">2026-08-26</span><span class="nt">08点档</span><i class="dot"></i></a><a class="nav-item" href="#d20260814"><span class="nd">2026-08-14</span><span class="nt">08点档</span><i class="dot"></i></a><a class="nav-item" href="#d20260813"><span class="nd">2026-08-13</span><span class="nt">08点档</span><i class="dot"></i></a><a class="nav-item" href="#d20260812"><span class="nd">2026-08-12</span><span class="nt">08点档</span></a><a class="nav-item" href="#d20260811"><span class="nd">2026-08-11</span><span class="nt">08点档</span><i class="dot"></i></a><a class="nav-item" href="#d20260810"><span class="nd">2026-08-10</span><span class="nt">08点档</span><i class="dot"></i></a><a class="nav-item" href="#d20260806"><span class="nd">2026-08-06</span><span class="nt">08点档</span><i class="dot"></i></a><a class="nav-item" href="#d20260805"><span class="nd">2026-08-05</span><span class="nt">08点档</span></a><a class="nav-item" href="#d20260804"><span class="nd">2026-08-04</span><span class="nt">08点档</span></a><a class="nav-item" href="#d20260803"><span class="nd">2026-08-03</span><span class="nt">08点档</span><i class="dot"></i></a><a class="nav-item" href="#d20260802"><span class="nd">2026-08-02</span><span class="nt">15点档</span><i class="dot"></i></a></aside>
+<main class="main">
+<div class="hero"><h1>青岛教育情报总览</h1><p>数据来源：青岛教育情报自动化任务（每周一 / 周四 08 点档）· 共 23 期 · 更新于 2026-10-22 16:35</p></div>
+<div class="warn">⚠ 最新一期为 2026-10-17，距今已 5 天未更新。自动化任务仅在 WorkBuddy 应用运行时执行，长时间未开应用会累积空档。</div>
+<section class="doc" id="d20261017"><div class="doc-hd"><h2>2026-10-17 <span class="tag">08点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-10-17 10:55</span></div><div class="doc-bd"><h2>青岛教育情报搜集（2026-10-17 · 08档）</h2>
+<ul><li>执行时间：2026-10-17 10:54（北京时间，08点档延时执行）</li><li>搜集窗口：最近 24-48 小时（10/15-10/17）</li><li>已检查关键词（7组）：</li></ul>
+<ol><li>青岛教育局 最新通知 政策 2026</li><li>青岛 中考 招生 政策变化 2026</li><li>青岛 小升初 学区 划片 调整</li><li>青岛 学校 校长 人事变动 调整</li><li>山东省教育厅 中考改革 2026</li><li>青岛 高中 招生计划 变化</li><li>青岛市南区 市北区 李沧区 教体局 通知</li></ol>
+<hr>
+<h3>一、窗口内新信息（1条）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>澎湃新闻（转载青岛广电《行风在线》）（待核实口径，建议以市教育局官方发布为准）</td><td>明年扩充普高学位6000个！青岛市教育局局长回应多项教育热点</td><td>局长杨克敏回应：2027年扩普高学位6000个以上，加快58中北校区建设、推进2中东校区等开工；明年自招总体稳定但压减学校与人数</td><td>2026-10-15</td><td>高</td></tr></tbody></table></div>
+<p class="note">核心要点拆解（高重要度）：</p>
+<ul><li><strong>学位扩容</strong>：2026年已扩普高学位7000+（普高录取率约77%，公办普高位率84%）；2027年再扩6000个以上，重点增公办普高学位。</li><li><strong>新校区建设</strong>：明年加快青岛58中北校区建设；推进青岛2中东校区、17中二期、西海岸薛家岛高中等开工。</li><li><strong>自招政策预告</strong>：2027年自招政策总体稳定，笔试科目不变，但将"适当控制、压减自招学校和招生人数"；如涉中考计分科目调整，会提前2-3年发布。</li><li><strong>学龄人口研判</strong>：初中入学2029年达峰，高中入学2032年达峰；今年已新增公办初中学位1.2万个，探索部分优质小学改九年一贯制。</li><li><strong>其他</strong>：2027中考人数预计创新高，一类高中招生比例将指导西海岸同比例增加；科技特长生政策正在研究论证（暂未设置）；首次秋假11/5-11/9，学校提供免费托管。</li></ul>
+<hr>
+<h3>二、回顾栏（超48小时窗口，供参考）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛市教育局官网</td><td>2026年中职和高等教育奖学金评审发放通知</td><td>部署中职国家奖学金（每生6000元）及高校国奖评审报送工作</td><td>2026-10-12</td><td>低</td></tr><tr><td>山东省教育厅</td><td>全省基础教育经验交流（中考改革）</td><td>山东作为全国中考改革试点省介绍"分数+等级"录取、60%指标到校经验</td><td>2026-06-08</td><td>中</td></tr><tr><td>青岛早报/蓝睛</td><td>24所局属学校校长书记调整</td><td>局属普高职校集中人事调整，多名骨干跨校履新</td><td>2026-08-09</td><td>高（已落地）</td></tr><tr><td>青岛日报/新华网</td><td>2026中考"微改革"发布</td><td>普高学位+814、指标生+609、D等级比例降至15%</td><td>2026-03-30</td><td>高（已落地）</td></tr></tbody></table></div>
+<hr>
+<h3>三、趋势判断</h3>
+<ul><li>本批次打破 10/5 以来连续 6 个批次的零新增状态，截获 1 条高重要度信息（教育局局长公开表态 2027 年学位扩容与自招压减预告），为 2027 中考政策前瞻的关键信号。</li><li>重点关注方向：① 58中北校区/2中东校区等新校区进展；② 2027 年自招学校与人数压减的官方细则；③ 2027 中考人数新高背景下的一类高中招生计划是否同步扩容。</li></ul>
+<p class="note">本报告由自动化任务生成，信息以官方渠道最终发布为准。</p></div></section><section class="doc" id="d20261011"><div class="doc-hd"><h2>2026-10-11 <span class="tag">08点档</span></h2><span class="mt">生成于 2026-10-11 09:18</span></div><div class="doc-bd"><h2>青岛教育情报搜集报告（2026-10-11 08 点档）</h2>
+<blockquote>搜集时间：2026-10-11 09:17（北京时间，08 点档延迟执行）<br>搜集范围：最近 24-48 小时青岛教育相关新闻与政策</blockquote>
+<h3>一、结论</h3>
+<p class="note">本次搜集暂无重大教育政策更新。</p>
+<p>已按计划完成 7 组关键词搜索，所有命中结果均为 2026 年 3 月至 9 月已发布信息（2026 中考"微改革"政策、四区义务教育招生新政、局属 24 校人事调整、启明星中学负责人公示等），此前各批次均已报告。48 小时窗口内未发现新增政策、招生、学区、人事类信息。</p>
+<p>国庆假期后（10/9 起）政策发布仍处休整期，教育局官网最新动态停留在 9/28（启明星中学负责人人选公示）。</p>
+<h3>二、已检查的搜索关键词</h3>
+<ol><li>青岛教育局 最新通知 政策 2026</li><li>青岛 中考 招生 政策变化 2026</li><li>青岛 小升初 学区 划片 调整</li><li>青岛 学校 校长 人事变动 调整</li><li>山东省教育厅 中考改革 2026</li><li>青岛 高中 招生计划 变化</li><li>青岛市南区 市北区 李沧区 教体局 通知</li></ol>
+<h3>三、回顾栏（已超 48 小时窗口的近期重要信息，供参考）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛市教育局官网</td><td>启明星中学负责人人选公示</td><td>王贺彬拟任启明星中学董事长、校长，公示期9/23-9/30</td><td>2026-09-28</td><td>低</td></tr><tr><td>青岛市教育局官网</td><td>中秋国庆规范办学监督举报通告</td><td>各年级一律不开放自习室，严禁集体补课，公布市、区两级举报方式</td><td>2026-09-24</td><td>中</td></tr><tr><td>百度百科（待核实）</td><td>法少鹏任青岛九中党委书记</td><td>百科词条显示2026年9月任礼贤教育集团总校长、九中党委书记，官方公示尚未见</td><td>2026-09（词条更新）</td><td>高（待核实）</td></tr><tr><td>山东教育新闻</td><td>中考改革进行时</td><td>山东16市"学完即考"、省级统一命题全覆盖、综评纳入中考等改革综述</td><td>2026-05-23</td><td>中</td></tr></tbody></table></div>
+<h3>四、趋势判断</h3>
+<ul><li>节后休整期较往年略长，10 月中下旬关注期中部署类文件集中发布；</li><li>持续跟踪九中人事调整官方公示闭环；</li><li>关注 2027 中考政策前瞻信号。</li></ul></div></section><section class="doc" id="d20261010"><div class="doc-hd"><h2>2026-10-10 <span class="tag">08点档</span></h2><span class="mt">生成于 2026-10-10 12:47</span></div><div class="doc-bd"><h2>青岛教育情报搜集报告（2026-10-10 · 08点档）</h2>
+<blockquote>执行时间：2026-10-10 12:47（08点档延迟执行）<br>搜集窗口：最近24-48小时（10月8日-10月10日）</blockquote>
+<h3>一、结论</h3>
+<p class="note">本次搜集暂无重大教育政策更新。</p>
+<p>48小时窗口内（10月8日-10日）未发现青岛市新增的重大教育政策、招生调整、学区变化或人事变动信息。国庆假期后官方渠道信息发布仍处于恢复期，教育局官网最新动态停留在9月28日（社会组织负责人人选公示），此后无新增重要公告。搜索结果以2026年3-9月已发布政策与报道为主。</p>
+<h3>二、本次检查的搜索关键词</h3>
+<ol><li>青岛教育局 最新通知 政策 2026</li><li>青岛 中考 招生 政策变化 2026</li><li>青岛 小升初 学区 划片 调整</li><li>青岛 学校 校长 人事变动 调整</li><li>山东省教育厅 中考改革 2026</li><li>青岛 高中 招生计划 变化</li><li>青岛市南区 市北区 李沧区 教体局 通知</li></ol>
+<h3>三、48小时窗口内新信息</h3>
+<p>无。</p>
+<h3>四、窗口外近期动态回顾（供参考）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛市教育局官网</td><td>社会组织负责人人选公示（王贺彬拟任青岛启明星中学董事长、校长）</td><td>王贺彬拟任青岛启明星中学董事长兼校长，现任中国钢铁工业协会冶金工业教育资源开发中心副主任</td><td>2026-09-28</td><td>中</td></tr><tr><td>青岛政务网</td><td>中秋国庆期间规范办学行为监督举报通告</td><td>公布市、区两级规范办学举报方式，严禁假期集体补课、提前返校</td><td>2026-09-24</td><td>低</td></tr><tr><td>教育局官网</td><td>2026年青岛高中招生政策发布会（已执行完毕）</td><td>局属普高新增学位814个，志愿简化为四类，指标生+609人，D等级占比降至15%</td><td>2026-03-30</td><td>高（历史）</td></tr></tbody></table></div>
+<h3>五、趋势判断与后续关注</h3>
+<ul><li>国庆假期后（10月上旬）政策发布仍处休整期，与往年规律一致，属正常现象。</li><li>后续重点关注：</li></ul>
+<ol><li>10月中下旬学期中期部署类文件是否集中发布；</li><li>青岛九中人事调整（法少鹏任党委书记，9月百科词条线索）的官方公示闭环；</li><li>2027年中考政策前瞻信号（预计2027年2-3月出现）；</li><li>各区期中考试安排与教学质量分析会动态。</li></ol></div></section><section class="doc" id="d20261007"><div class="doc-hd"><h2>2026-10-07 <span class="tag">20点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-10-07 17:08</span></div><div class="doc-bd"><h2>青岛教育情报～2026-10-07-20</h2>
+<p><strong>搜集时间</strong>：2026-10-07 17:07（北京时间）</p>
+<p><strong>执行批次</strong>：20 点档（提前执行）</p>
+<p><strong>时间窗口</strong>：最近 24-48 小时（2026-10-05 至 2026-10-07）</p>
+<h3>当日结论</h3>
+<p>本次搜集暂无重大教育政策更新。7 组关键词搜索结果中，青岛教育相关信息的最新日期停留在 2026-09-30（青岛市高中教学工作会召开），未发现在 2026-10-05 至 2026-10-07 期间新增的初中/高中升学政策、学区划片、招生计划、学校新建/合并/更名、校长人事变动、中考/高考改革或教育局重要通知。</p>
+<h3>筛选结果</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>—</td><td>—</td><td>本次搜集窗口期内未发现符合条件的新信息</td><td>—</td><td>—</td></tr></tbody></table></div>
+<h3>已检查搜索关键词</h3>
+<ol><li>"青岛教育局 最新通知 政策 2026"</li><li>"青岛 中考 招生 政策变化 2026"</li><li>"青岛 小升初 学区 划片 调整"</li><li>"青岛 学校 校长 人事变动 调整"</li><li>"山东省教育厅 中考改革 2026"</li><li>"青岛 高中 招生计划 变化"</li><li>"青岛市南区 市北区 李沧区 教体局 通知"</li></ol>
+<h3>近期可追踪背景（非 24-48 小时内新增）</h3>
+<p>以下信息在本次搜索中出现，但发布时间早于窗口期，仅作趋势参考：</p>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛政务网</td><td>2026年青岛市高中教学工作会召开</td><td>总结部署高中教学工作，属常规业务会议</td><td>2026-09-30</td><td>低</td></tr><tr><td>网易号（自媒体，待核实）</td><td>公办普高学位占比达75%以上，青岛推进教育资源优化配置</td><td>盘点上半年青岛教育资源配置、普高学位扩增、新校建设进展</td><td>2026-09-29</td><td>中</td></tr><tr><td>中国教育信息化网</td><td>山东青岛“人工智能+教育”行动重塑教育生态</td><td>介绍青岛人工智能课程、智慧课堂、AI实验室及崂山区/西海岸案例</td><td>2026-09-24</td><td>中</td></tr><tr><td>青网（青岛日报/观海新闻转载）</td><td>青岛市教育局副局长宋洁做客民生在线</td><td>回应城阳高中新校区、市北中学小学部、青岛二中蓝谷学校招生范围等热点</td><td>2026-09-22</td><td>中</td></tr><tr><td>青岛政务网</td><td>青岛办好民生实事，扩增公办普通高中学位</td><td>公布2026年公办普高学位扩增措施及储备学位超7000个</td><td>2026-05-10</td><td>高</td></tr></tbody></table></div>
+<h3>趋势判断</h3>
+<p>国庆假期后的工作日（10 月 8-9 日）通常会出现政策文件集中发布的小高峰，建议持续关注以下方向：</p>
+<ul><li>2026 年秋季学期期中部署类通知；</li><li>2027 年中考政策前瞻信号；</li><li>前期人事调整（如青岛九中）的官方公示闭环。</li></ul>
+<hr>
+<p class="note">本文件由自动化情报搜集任务生成，信息来源已在表中标注优先级与核实状态。</p></div></section><section class="doc" id="d20261006"><div class="doc-hd"><h2>2026-10-06 <span class="tag">08点档</span></h2><span class="mt">生成于 2026-10-06 07:53</span></div><div class="doc-bd"><h2>青岛教育情报日报</h2>
+<p><strong>搜集日期</strong>：2026-10-06</p>
+<p><strong>执行时间</strong>：08:00（北京时间）</p>
+<p><strong>监测窗口</strong>：最近 24-48 小时（2026-10-04 至 2026-10-06）</p>
+<p><strong>执行状态</strong>：✅ 已完成 7 组关键词搜索</p>
+<hr>
+<h3>当日结论</h3>
+<p class="note">本次搜集暂无重大教育政策更新。</p>
+<p>国庆假期（10/1-10/7）行政休整期，青岛各级教育行政部门进入假期运行模式，无新的政策文件、招生调整、人事任免等动态发布。符合假期规律。</p>
+<hr>
+<h3>已检查的搜索关键词</h3>
+<div class="tw"><table><thead><tr><th>序号</th><th>搜索关键词</th><th>结果</th></tr></thead><tbody><tr><td>1</td><td>"青岛教育局 最新通知 政策 2026"</td><td>无 48h 内新结果</td></tr><tr><td>2</td><td>"青岛 中考 招生 政策变化 2026"</td><td>无 48h 内新结果</td></tr><tr><td>3</td><td>"青岛 小升初 学区 划片 调整"</td><td>无 48h 内新结果</td></tr><tr><td>4</td><td>"青岛 学校 校长 人事变动 调整"</td><td>无 48h 内新结果</td></tr><tr><td>5</td><td>"山东省教育厅 中考改革 2026"</td><td>无 48h 内新结果</td></tr><tr><td>6</td><td>"青岛 高中 招生计划 变化"</td><td>无 48h 内新结果</td></tr><tr><td>7</td><td>"青岛市南区 市北区 李沧区 教体局 通知"</td><td>无 48h 内新结果</td></tr></tbody></table></div>
+<hr>
+<h3>近期值得回顾的信息（&gt;48 小时窗口，供参考）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛政务网/市教育局</td><td>关于公布2026年青岛市中小学中秋节、国庆节期间规范办学行为监督举报方式的通告</td><td>公布市、区两级规范办学监督举报方式，强调假期严禁集体补课</td><td>2026-09-24</td><td>中</td></tr><tr><td>百度百科/青岛九中官微</td><td>法少鹏任礼贤教育集团总校长、青岛九中党委书记</td><td>原二中分校党委书记法少鹏调任九中党委书记，孙睿不再担任</td><td>2026-09（百科更新）</td><td>高（待官方公示闭环）</td></tr></tbody></table></div>
+<hr>
+<h3>趋势判断</h3>
+<ul><li><strong>假期效应</strong>：国庆长假期间（10/1-10/7）教育行政信息发布基本停滞，属正常现象。</li><li><strong>节后关注</strong>：建议 10/9（节后首个工作日）起关注是否有积压的政策文件集中发布，以及 2027 年中考政策前瞻信号。</li><li><strong>持续跟踪</strong>：法少鹏任九中党委书记一事，仍需等待市教育局官方公示文件以完成信息闭环。</li></ul>
+<hr>
+<p class="note">报告生成时间：2026-10-06 07:50</p>
+<p class="note">下次搜集：2026-10-06 20:00</p></div></section><section class="doc" id="d20261005"><div class="doc-hd"><h2>2026-10-05 <span class="tag">08点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-10-05 08:13</span></div><div class="doc-bd"><h2>青岛教育情报搜集（2026-10-05 08点档）</h2>
+<p><strong>执行时间</strong>：2026-10-05 08:10（北京时间）</p>
+<p><strong>搜集范围</strong>：最近 24-48 小时（10/3-10/5）</p>
+<p><strong>结论</strong>：本次搜集暂无重大教育政策更新。</p>
+<hr>
+<h3>一、已检查的搜索关键词（7 组，均已执行）</h3>
+<ol><li>青岛教育局 最新通知 政策 2026</li><li>青岛 中考 招生 政策变化 2026</li><li>青岛 小升初 学区 划片 调整</li><li>青岛 学校 校长 人事变动 调整</li><li>山东省教育厅 中考改革 2026</li><li>青岛 高中 招生计划 变化</li><li>青岛市南区 市北区 李沧区 教体局 通知</li></ol>
+<p>48 小时窗口内未发现与青岛市相关的升学政策、学区划片、招生计划、学校建设、人事变动、考试改革类新信息。</p>
+<hr>
+<h3>二、本次新信息（0 条）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>（无）</td><td>—</td><td>—</td><td>—</td><td>—</td></tr></tbody></table></div>
+<hr>
+<h3>三、近期信息回顾（已超出 48 小时窗口，供参考）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛市教育局（官网）</td><td>中秋、国庆期间规范办学行为监督举报方式通告</td><td>公布市、区两级举报电话，严禁假期补课、集体到校</td><td>2026-09-24</td><td>低</td></tr><tr><td>市北区政府网</td><td>超银中学、超银小学负责人人选公示</td><td>张毅帅拟任超银中学理事长兼校长，张卉拟任超银小学校长</td><td>2026-08-31</td><td>中</td></tr><tr><td>半岛教育直通车</td><td>局属 24 校校长、书记集中调整</td><td>骨干跨校轮岗、80 后干部上岗，护航秋季开学</td><td>2026-08-09</td><td>高</td></tr><tr><td>青岛市政府新闻办</td><td>2026 年中考"微改革"六项举措</td><td>局属普高扩招 814 学位，指标生增 609 个，D 等级比例降至 15%</td><td>2026-03-30</td><td>高</td></tr><tr><td>山东省教育厅</td><td>山东中考改革经验交流</td><td>16 市"学完即考"，推行"分数+等级"录取，指标生不低于 60%</td><td>2026-02-09</td><td>高</td></tr></tbody></table></div>
+<hr>
+<h3>四、趋势判断</h3>
+<ul><li>10 月初适逢国庆假期，教育行政部门处于假期休整期，政策发布窗口暂停，符合节令规律。</li><li>自 9/25 批次以来连续两期零新增，政策平稳期持续。</li><li>后续关注点：节后（10/9 前后）教育局官网恢复更新的期中部署类信息；2027 年中考政策前瞻信号；九中人事（法少鹏任党委书记）官方公示闭环情况。</li></ul></div></section><section class="doc" id="d20260925"><div class="doc-hd"><h2>2026-09-25 <span class="tag">08点档</span></h2><span class="mt">生成于 2026-09-25 09:38</span></div><div class="doc-bd"><h2>青岛教育情报搜集报告（2026-09-25 08档）</h2>
+<ul><li><strong>执行时间</strong>：2026-09-25 09:37（北京时间，08 点档延时执行）</li><li><strong>搜索关键词</strong>：7 组主关键词 + 1 组补充核实搜索（青岛银河学校 刘岩林 校长 就任）</li><li><strong>48 小时窗口</strong>：2026-09-23 ～ 2026-09-25</li><li><strong>本次结论</strong>：<strong>本次搜集暂无重大教育政策更新</strong>（48 小时窗口内 0 条新信息，高/中/低重要度均归零）</li></ul>
+<hr>
+<h3>本次新信息（48 小时窗口内）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>（无）</td><td>—</td><td>48 小时窗口内未发现青岛市新增教育政策/招生/人事信息</td><td>—</td><td>—</td></tr></tbody></table></div>
+<h4>已检查的搜索关键词</h4>
+<ol><li>青岛教育局 最新通知 政策 2026</li><li>青岛 中考 招生 政策变化 2026</li><li>青岛 小升初 学区 划片 调整</li><li>青岛 学校 校长 人事变动 调整</li><li>山东省教育厅 中考改革 2026</li><li>青岛 高中 招生计划 变化</li><li>青岛市南区 市北区 李沧区 教体局 通知</li><li>（补充）青岛银河学校 刘岩林 校长 就任</li></ol>
+<hr>
+<h3>回顾栏（已超出 48 小时窗口，供参考）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>银河学校官微/远播国际教育</td><td>齐鲁名校长刘岩林正式就任青岛银河学校校长</td><td>齐鲁名校长刘岩林从公办枣山小学退休后出任民办银河学校校长，本轮系二次传播</td><td>2026-09-16</td><td>低（民办学校人事）</td></tr><tr><td>搜狐（自媒体，待核实）</td><td>李沧区中小学校长调整：集团动态优化、新校长到位</td><td>李沧区成立汾阳路小学教育集团，枣山小学王平接任，世园学校/实验初中迎新校长</td><td>2026-09（具体日期不明，约9月中旬）</td><td>待核实（未见官方公示，若属实为高重要度）</td></tr><tr><td>百度百科（待核实）</td><td>法少鹏任礼贤教育集团总校长、青岛九中党委书记</td><td>百科词条更新确认孙睿不再担任九中党委书记，官方公示尚未见</td><td>2026-09（词条更新）</td><td>待核实（延续 9/19 批次记录）</td></tr><tr><td>山东省教育厅官网</td><td>全省学校思政课建设工作推进会在济南召开</td><td>省级会议动态，非青岛专属事项</td><td>2026-09-24</td><td>低（省级会议，不涉青岛政策）</td></tr></tbody></table></div>
+<hr>
+<h3>趋势判断与后续关注</h3>
+<ul><li>9 月中下旬青岛教育政策持续平稳，开学季人事调整（市北、崂山、局属、李沧）均已落地并进入传播尾声。</li><li><strong>待跟踪事项</strong>：</li></ul>
+<ol><li>李沧区校长调整的官方公示是否落地（搜狐自媒体信息需官方渠道确认）；</li><li>九中人事变动的官方公示闭环；</li><li>10 月前后可能出现的秋季学期中期部署、2027 中考政策前瞻信号。</li></ol>
+<ul><li>建议维持每日 2 次的监测频率不变。</li></ul></div></section><section class="doc" id="d20260919"><div class="doc-hd"><h2>2026-09-19 <span class="tag">08点档</span></h2><span class="mt">生成于 2026-09-19 14:54</span></div><div class="doc-bd"><h2>青岛教育情报搜集报告</h2>
+<ul><li><strong>执行时间</strong>：2026-09-19 14:53（北京时间，08 点档延时执行）</li><li><strong>搜集窗口</strong>：最近 24-48 小时（2026-09-17 至 09-19）</li><li><strong>本次结论</strong>：<strong>本次搜集暂无重大教育政策更新</strong>（24-48 小时窗口内 0 条全新信息）</li></ul>
+<hr>
+<h3>一、已检查的搜索关键词</h3>
+<ol><li>青岛教育局 最新通知 政策 2026</li><li>青岛 中考 招生 政策变化 2026</li><li>青岛 小升初 学区 划片 调整</li><li>青岛 学校 校长 人事变动 调整</li><li>山东省教育厅 中考改革 2026</li><li>青岛 高中 招生计划 变化</li><li>青岛市南区 市北区 李沧区 教体局 通知</li></ol>
+<p>补充核实关键词：青岛九中 党委书记 法少鹏 孙睿 人事调整</p>
+<h3>二、筛选结果</h3>
+<p>24-48 小时窗口内未发现青岛市新增的升学政策、学区划片、招生计划、学校新建合并、人事变动、考试改革类信息。各关键词搜索结果均为 2026 年 3-9 月上旬已发布并已报告过的政策与报道。</p>
+<h3>三、回顾与核实（非新增，供参考）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>百度百科（待核实）</td><td>青岛九中党委领导调整确认：法少鹏任党委书记</td><td>百科更新显示法少鹏任礼贤教育集团总校长、青岛九中党委书记，孙睿不再担任，属8/9局属调整批次确认</td><td>2026-09（百科更新）</td><td>高（回顾确认，无新增实质内容）</td></tr><tr><td>蓝睛/青岛广电</td><td>青岛多所局属学校校长、书记调整</td><td>法少鹏调任九中党委书记、封强任校长；二中、十九中、三十九中等同步到位，已在此前批次报告</td><td>2026-08 下旬（回顾）</td><td>高（回顾）</td></tr></tbody></table></div>
+<p><strong>说明</strong>：青岛九中人事调整属 8/9 局属 24 校人事调整批次的组成部分，本轮搜索（百度百科词条更新）仅为该信息的二次确认，官方渠道尚未见正式公示原文，故标注"待核实"。</p>
+<h3>四、趋势判断</h3>
+<ul><li>开学季人事调整高峰（局属、市北、崂山）与教师节报道均已结束，9 月中下旬教育行政进入平稳运行期，与 9/13、9/18 两批次判断一致。</li><li>建议维持现有监测频率，重点关注：</li></ul>
+<ol><li>秋季学期中期（10 月前后）可能出现的学期部署、质量监测类信息；</li><li>青岛九中人事调整的官方正式公示（如发布可闭环核实）；</li><li>2027 年中考政策的前瞻性吹风（往年多在次年 3 月发布，10-12 月或有研讨类信号）。</li></ol></div></section><section class="doc" id="d20260918"><div class="doc-hd"><h2>2026-09-18 <span class="tag">20点档</span></h2><span class="mt">生成于 2026-09-18 17:38</span></div><div class="doc-bd"><h2>青岛教育情报～2026-09-18-20</h2>
+<h3>本次搜集结论</h3>
+<p>本次在 24–48 小时窗口内，未发现青岛市及各区市新增重大教育政策、学区调整、招生计划变化或重要人事变动。</p>
+<p>搜索结果中可见的内容多为 2026 年 3–8 月已发布的政策文件与报道（如 2026 年中考招生方案、四区义务教育招生政策、暑期人事调整等），均不在本次 24–48 小时窗口内。</p>
+<h3>已检查的搜索关键词</h3>
+<ol><li>"青岛教育局 最新通知 政策 2026"</li><li>"青岛 中考 招生 政策变化 2026"</li><li>"青岛 小升初 学区 划片 调整"</li><li>"青岛 学校 校长 人事变动 调整"</li><li>"山东省教育厅 中考改革 2026"</li><li>"青岛 高中 招生计划 变化"</li><li>"青岛市南区 市北区 李沧区 教体局 通知"</li></ol>
+<h3>筛选后信息表格</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>本次搜集暂无新的青岛教育政策/人事/招生信息（24-48小时窗口）</td><td>—</td><td>—</td><td>—</td><td>—</td></tr></tbody></table></div>
+<h3>备注</h3>
+<ul><li>搜索结果包含若干自媒体/百科来源的人事信息，未经官方渠道核实，未纳入有效情报。</li><li>建议维持现有监测频率，持续关注 9 月中下旬各区教体局官网及本地权威媒体的秋季学期中期部署类信息。</li></ul></div></section><section class="doc" id="d20260913"><div class="doc-hd"><h2>2026-09-13 <span class="tag">08点档</span></h2><span class="mt">生成于 2026-09-13 08:06</span></div><div class="doc-bd"><h2>青岛教育情报 - 2026-09-13 08:00</h2>
+<h3>搜集说明</h3>
+<ul><li>执行时间：2026-09-13 08:05（北京时间）</li><li>时间窗口：最近 24-48 小时（2026-09-11 至 2026-09-13）</li><li>搜索关键词：</li></ul>
+<ol><li>"青岛教育局 最新通知 政策 2026"</li><li>"青岛 中考 招生 政策变化 2026"</li><li>"青岛 小升初 学区 划片 调整"</li><li>"青岛 学校 校长 人事变动 调整"</li><li>"山东省教育厅 中考改革 2026"</li><li>"青岛 高中 招生计划 变化"</li><li>"青岛市南区 市北区 李沧区 教体局 通知"</li></ol>
+<h3>当日结论</h3>
+<p>本次搜集在 24-48 小时窗口内未发现青岛市重大教育政策更新。</p>
+<p>开学季人事调整高峰已过，教师节相关活动报道已发布完毕，青岛教育行政工作进入平稳运行期。搜索结果中较新的条目主要为 2026 年 9 月上旬已发布的常规通知，未落入本次 48 小时监测窗口。</p>
+<h3>信息汇总表</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>本次搜集暂无重大教育政策更新</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table></div>
+<h3>备注</h3>
+<p>已检查 7 组关键词，搜索结果多为 2026 年 4-8 月已发布政策及历史动态，无 2026-09-11 至 2026-09-13 期间新增重大信息。</p></div></section><section class="doc" id="d20260911"><div class="doc-hd"><h2>2026-09-11 <span class="tag">20点档</span></h2><span class="mt">生成于 2026-09-11 15:33</span></div><div class="doc-bd"><h2>青岛教育情报～2026-09-11-20</h2>
+<blockquote>搜集时间：2026-09-11 15:30（北京时间）<br>搜集窗口：最近 24-48 小时<br>执行结论：<strong>本次搜集窗口内无高/中重要度教育政策更新</strong>，仅发现 2 条低重要度教师节相关报道。</blockquote>
+<hr>
+<h3>筛选结果</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>齐鲁网青岛频道</td><td>青岛多形式开展活动庆祝第42个教师节</td><td>公布2026年青岛市教书育人榜样评选结果，各区市举办教师节庆祝活动</td><td>2026-09-10</td><td>低</td></tr><tr><td>青岛晚报/观海新闻</td><td>青岛教师大数据画像出炉</td><td>全市教职工18万人、专任教师近12万，中小学骨干教师2.2万人，高层次人才居全省前列</td><td>2026-09-10</td><td>低</td></tr></tbody></table></div>
+<hr>
+<h3>说明</h3>
+<ul><li>以上信息均为教师节活动报道或教师队伍建设成果发布，不涉及升学政策、学区调整、招生计划、学校变动、人事任免等政策类变化。</li><li>市北区多所中小学集中换校长（9月8日报道）、超银中学/小学负责人公示（8月31日发布）等人事调整信息已在前次（9月10日 08:00）情报中收录，本次不再重复。</li></ul>
+<hr>
+<h3>已检查搜索关键词</h3>
+<ol><li>"青岛教育局 最新通知 政策 2026"</li><li>"青岛 中考 招生 政策变化 2026"</li><li>"青岛 小升初 学区 划片 调整"</li><li>"青岛 学校 校长 人事变动 调整"</li><li>"山东省教育厅 中考改革 2026"</li><li>"青岛 高中 招生计划 变化"</li><li>"青岛市南区 市北区 李沧区 教体局 通知"</li></ol>
+<hr>
+<h3>参考链接</h3>
+<ul><li>齐鲁网青岛频道：http://qingdao.iqilu.com/qdminsheng/2026/0910/5943329.shtml</li><li>青岛晚报/观海新闻（今日头条转载）：https://www.toutiao.com/article/7683694102227075584/</li></ul></div></section><section class="doc" id="d20260910"><div class="doc-hd"><h2>2026-09-10 <span class="tag">08点档</span></h2><span class="mt">生成于 2026-09-10 07:54</span></div><div class="doc-bd"><h2>青岛教育情报搜集报告</h2>
+<p><strong>搜集时间：</strong> 2026年9月10日 08:00（北京时间）</p>
+<p><strong>搜集范围：</strong> 最近24-48小时青岛教育相关新闻与政策</p>
+<p><strong>搜索关键词：</strong> 7组主关键词</p>
+<hr>
+<h3>一、48小时窗口内新信息（9月8日-10日）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>自媒体-铜牛角（待核实）</td><td>市北区多所中小学集中换校长</td><td>暑假市北完成大面积人事调整：5所初中（市北中学、广雅中学、21中、34中、44中）+多所核心公办小学全部更新管理班子，全部为本土资深干部轮岗提拔</td><td>2026-09-08</td><td><strong>高</strong></td></tr><tr><td>市北政务网（官方）</td><td>超银中学、超银小学负责人人选公示</td><td>张毅帅拟任青岛超银中学理事长兼校长，张卉拟任市北区超银小学校长，公示期9月1日-5日</td><td>2026-08-31</td><td>中</td></tr></tbody></table></div>
+<h3>二、72小时至一周内回顾信息（超出48小时但值得关注）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>半岛教育直通车/家长汇（媒体）</td><td>局属24所普高职校校长人事调整</td><td>涉及青岛二中、九中、十九中、三十九中、五十八中等24所局属学校，多名骨干跨校履新，80后年轻干部走上校级岗位，紧扣党组织领导的校长负责制</td><td>约2026年8月底</td><td><strong>高</strong></td></tr><tr><td>青报在线（媒体）</td><td>崂山区中小学校长大规模调整</td><td>交流干部47名，提拔校级干部15名，四大教育集团总校长全面到位（张星/杨闻生/赵美香/周敬山），新建校高位配置名校长</td><td>2026-08-25</td><td><strong>高</strong></td></tr><tr><td>大众日报（媒体）</td><td>青岛第三实验初中(57中)新学期迭代焕新</td><td>孙琳涛任书记兼校长（党政一肩挑），大田路新校区首次启用，一校两区格局，初一7个班入驻新校区</td><td>约2026年9月初</td><td>中</td></tr></tbody></table></div>
+<h3>三、开学季人事调整综合分析</h3>
+<h4>3.1 调整规模与覆盖范围</h4>
+<p>本轮暑期-开学季人事调整覆盖范围极广，呈现三个层级：</p>
+<ol><li><strong>市级层面（局属24所学校）：</strong> 涵盖青岛二中、九中、十九中、三十九中、五十八中等头部高中及多所职业学校，涉及书记、校长、副校长等多层级岗位。80后年轻干部开始进入校级管理层，多数拥有硕士/博士学位。</li></ol>
+<ol><li><strong>区级层面：</strong></li></ol>
+<ul><li><strong>市北区：</strong> 5所初中（市北中学、广雅中学、21中、34中、44中）+6所以上小学（市北实验小学、山东路小学、大名路小学、洛阳路一小/二小、北山二小）集中换帅</li><li><strong>崂山区：</strong> 交流干部47名，提拔校级干部15名，平均年龄40岁，覆盖幼小中全学段</li><li><strong>市南区：</strong> 57中核心人事落定（孙琳涛书记兼校长），26中教育集团设"市南班"</li></ul>
+<ol><li><strong>民办层面：</strong> 超银中学、超银小学负责人人选公示（市北区教体局审批）</li></ol>
+<h4>3.2 调整特点</h4>
+<ul><li><strong>本土轮岗为主：</strong> 全部为区域内资深教育干部内部轮岗、提拔，无空降团队</li><li><strong>年轻化趋势明显：</strong> 崂山区新提拔干部平均年龄40岁；局属学校80后走上校级岗位</li><li><strong>集团化治理深化：</strong> 崂山区四大教育集团总校长制度全面落地，从"挂牌组建"进入"内核发展"阶段</li><li><strong>党建引领：</strong> 紧扣党组织领导的校长负责制推进，多名校长转任书记</li></ul>
+<h4>3.3 对教培行业的影响判断</h4>
+<ul><li>市北区集中换校长将影响未来3-5年区域办学格局，部分学校校风、教学节奏可能调整</li><li>新建校（崂山一中、崂山实验初中、深圳路小学、李沧石牛山路学校、57中大田路校区）启用，片区学位供给变化</li><li>集团化办学深化意味着师资流动、课程共建将加速，跨校区培养路径增多</li></ul>
+<h3>四、已检查的搜索关键词</h3>
+<ol><li>"青岛教育局 最新通知 政策 2026"</li><li>"青岛 中考 招生 政策变化 2026"</li><li>"青岛 小升初 学区 划片 调整"</li><li>"青岛 学校 校长 人事变动 调整"</li><li>"山东省教育厅 中考改革 2026"</li><li>"青岛 高中 招生计划 变化"</li><li>"青岛市南区 市北区 李沧区 教体局 通知"</li></ol>
+<h3>五、与上批次对比</h3>
+<div class="tw"><table><thead><tr><th>维度</th><th>上批次（8/26）</th><th>本批次（9/10）</th></tr></thead><tbody><tr><td>间隔天数</td><td>距8/14间隔12天</td><td>距8/26间隔15天</td></tr><tr><td>48小时新信息条数</td><td>1</td><td>2</td></tr><tr><td>高重要度</td><td>0</td><td>1</td></tr><tr><td>中重要度</td><td>1</td><td>1</td></tr><tr><td>低重要度</td><td>0</td><td>0</td></tr><tr><td>核心发现</td><td>区市履责评价专项督查方案</td><td>市北区集中换校长+超银公示</td></tr></tbody></table></div>
+<h3>六、趋势判断</h3>
+<ol><li><strong>开学季人事调整高峰已过：</strong> 8月下旬-9月初为今年暑期人事调整集中爆发期，市北、崂山、局属三个层面均已落地，后续大幅调整概率降低</li><li><strong>新校区密集启用：</strong> 崂山一中、57中大田路校区、李沧石牛山路学校等新校区已开学，后续关注办学成效</li><li><strong>集团化办学深化：</strong> 崂山区集团总校长制度、李沧新成立两个教育集团，关注师资流动和课程共建实际落地情况</li><li><strong>下一次搜集建议：</strong> 关注开学后首月（9月底-10月初）教学质量反馈、新校区运营情况、集团化办学首批成果</li></ol></div></section><section class="doc" id="d20260826"><div class="doc-hd"><h2>2026-08-26 <span class="tag">08点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-08-26 13:02</span></div><div class="doc-bd"><h2>青岛教育情报～2026-08-26-08</h2>
+<blockquote>搜集时间：2026年8月26日 08:00档<br>覆盖窗口：最近24-48小时（2026-08-24 至 2026-08-26）<br>执行状态：完成7组关键词搜索</blockquote>
+<hr>
+<h3>一、本次搜集结果概览</h3>
+<p>本次48小时窗口内共筛选出 <strong>1条</strong> 有效信息（0高 / 1中 / 0低）。暑期教育新闻淡季持续，新增信息量较少，符合预期。</p>
+<hr>
+<h3>二、筛选后信息明细</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>央广网 / 中国教育新闻网</td><td>山东青岛：创新开展区市履行教育职责评价</td><td>青岛市制发专项督查方案，将贯彻各级教育大会精神与区市政府履责评价深度融合，设“不赋分、不排名、重诊断、重改进、重推广”发展性督导定位，聚焦8方面重点工作及健康学校建设等重点项目</td><td>2026-08-24</td><td>中</td></tr></tbody></table></div>
+<h4>重要程度说明</h4>
+<ul><li><strong>中</strong>：该信息属于教育督导工作机制层面的创新，并非直接的招生/学区/人事变动政策，但涉及教育强市建设的制度保障，对长期教育生态具有参考价值。</li></ul>
+<hr>
+<h3>三、已检查搜索关键词（共7组）</h3>
+<ol><li>✅ "青岛教育局 最新通知 政策 2026" —— 仅1条新信息（央广网8/24督导评价）</li><li>✅ "青岛 中考 招生 政策变化 2026" —— 无48小时内新信息（均为3-4月旧政策）</li><li>✅ "青岛 小升初 学区 划片 调整" —— 无48小时内新信息（均为5-6月旧政策）</li><li>✅ "青岛 学校 校长 人事变动 调整" —— 无48小时内新信息（上一批次人事调整集中在8/6-8/9，已退出窗口）</li><li>✅ "山东省教育厅 中考改革 2026" —— 无青岛相关48小时内新信息</li><li>✅ "青岛 高中 招生计划 变化" —— 无48小时内新信息（均为3-4月旧政策）</li><li>✅ "青岛市南区 市北区 李沧区 教体局 通知" —— 无48小时内新信息（上一批次学位预警在7月底，已退出窗口）</li></ol>
+<hr>
+<h3>四、近期重要动态回顾（已超48小时窗口，供参考）</h3>
+<div class="tw"><table><thead><tr><th>发布时间</th><th>事件</th><th>重要程度</th></tr></thead><tbody><tr><td>2026-08-10</td><td>市南区获评教育部首批"全国中小学科技教育实验区"（青岛唯一，1区+4校）</td><td>高</td></tr><tr><td>2026-08-09</td><td>青岛市教育局公布局属24所学校领导班子调整（覆盖普高、职校、特教）</td><td>高</td></tr><tr><td>2026-08-08</td><td>市南区小学"一把手"人事调整落定（涉及德县路小学、天山小学等10余校）</td><td>高</td></tr><tr><td>2026-08-07</td><td>李沧区13所中小学集中换帅（58中附属初中、文昌学校、世园学校等）</td><td>高</td></tr><tr><td>2026-08-07</td><td>市教育局召开"干部作风建设年"半年工作推进会（提及二中蓝谷学校启用等7个在建项目）</td><td>中</td></tr><tr><td>2026-08-06</td><td>市教育局公示2026年度"新时代好少年"候选人</td><td>低</td></tr></tbody></table></div>
+<hr>
+<h3>五、趋势判断与监测建议</h3>
+<ul><li><strong>当前态势</strong>：暑期教育新闻淡季持续，48小时窗口内新增信息量维持在低位。开学临近（预计8月底/9月初），各区学位预警、开学准备、新学期部署类信息可能在近期集中出现。</li><li><strong>加密监测建议</strong>：建议在8月28日-9月2日期间增加监测频率，并补充关键词如"青岛 开学 准备 通知""青岛 新学期 部署"等，以捕捉开学前后的集中信息释放。</li></ul>
+<hr>
+<p class="note">本报告由教育情报搜集自动化任务生成，信息均来源于公开网络搜索。</p></div></section><section class="doc" id="d20260814"><div class="doc-hd"><h2>2026-08-14 <span class="tag">08点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-08-14 07:53</span></div><div class="doc-bd"><h2>青岛教育情报 · 2026-08-14 早班（08:00）</h2>
+<blockquote>报告生成时间：2026-08-14 07:51（北京时间）<br>监测窗口：最近 24-48 小时<br>任务 ID：automation-1785654090349</blockquote>
+<hr>
+<h3>一、本次搜集摘要</h3>
+<p>本次 8 点档共执行 <strong>7 组主关键词 + 3 组补充关键词</strong> 检索（10 次搜索），共截获 <strong>5 条有效教育情报</strong>（1 高 1 中 3 回顾）。</p>
+<p><strong>核心发现</strong>：青岛市市南区获评教育部首批"全国中小学科技教育实验区"，是山东省 4 个入选区之一、青岛市唯一获评行政区。该信息在 8/13 由大众日报、8/14 由海报新闻等本地权威媒体跟踪深度报道，正式进入 48 小时监测窗口。</p>
+<hr>
+<h3>二、本次新截获情报（24-48 小时窗口）</h3>
+<h4>1. 重要程度 【高】</h4>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>大众日报/观海新闻、海报新闻</td><td>青岛市市南区获评首批全国中小学科技教育实验区</td><td>教育部公示首批名单，市南区成青岛唯一入选区，山东4个之一，4校同获评实验校</td><td>8/13-8/14 跟踪报道，教育部公示为8月初</td><td>高</td></tr></tbody></table></div>
+<p><strong>详情要点</strong>：</p>
+<ul><li>市南区入选首批"全国中小学科技教育实验区"，山东省共 4 个区入选</li><li>青岛市共 <strong>1 区 + 4 校</strong> 入选全国中小学科技教育实验区/校</li><li>4 所新晋实验校：青岛九中、青岛实验初中、西海岸新区衡山路小学、青岛滨海学校</li><li>叠加此前两批 7 所国家级科学教育实验校，青岛形成 <strong>1 区 + 11 校</strong> 的国家级科技教育实验集群，覆盖小学、初中、高中全学段</li><li>市南区核心经验：<strong>全域无边界"大科创"育人体系</strong>（"1540"三级科创教联体架构、"市南科创百馆"品牌、"科创微小馆"100% 全覆盖、"一生一课题"实践）</li><li>媒体覆盖：青岛晚报（8/10 首报）、大众日报（8/13）、海报新闻（8/14 深度报道）</li></ul>
+<p><strong>关注度评级原因</strong>：属国家级评选区域认定（青岛唯一、山东省4个入选区之一），地方教育影响力显著；媒体多轮次深度报道（8/10-8/14）；已成青岛教育近期最大亮点之一。</p>
+<hr>
+<h4>2. 重要程度 【中】</h4>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>山东教育新闻（sdjyxww.com）</td><td>【青岛】青岛市教育系统领导干部暑期读书班举办</td><td>市教育局8/14-15举办读书班，学习贯彻全国、全省、全市教育大会精神</td><td>8/14-8/15</td><td>中</td></tr></tbody></table></div>
+<p><strong>详情要点</strong>：</p>
+<ul><li>主办单位：青岛市教育局</li><li>时间：2026 年 8 月 14 日至 15 日</li><li>主题：学习贯彻全国、全省、全市教育大会精神</li><li>性质：常规性工作部署，未发布新政策</li></ul>
+<p><strong>关注度评级原因</strong>：常规开学前领导培训，无新政策/新方案，属工作动态级别。</p>
+<hr>
+<h3>三、回顾窗口内参考信息（非本次新增）</h3>
+<p>以下信息在 8/12 及更早批次已记录，本批次仍在 48 小时窗口附近，未计入本次新增：</p>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th><th>备注</th></tr></thead><tbody><tr><td>青岛市教育局官网</td><td>2026 年青岛市教书育人榜样入围名单公示</td><td>2026年教书育人榜样入围名单公示，公示期8/10-8/14</td><td>8/10</td><td>低</td><td>公示截止8/14，仍可参考</td></tr><tr><td>半岛教育直通车/腾讯新闻</td><td>青岛多所局属学校校长、书记调整</td><td>涉及24所局属普高/职校的校长/书记调整</td><td>8/9</td><td>高</td><td>上一批次已收录</td></tr><tr><td>半岛全媒体记者郝春梅</td><td>市南区小学一把手变动</td><td>涉及德县路、天山、金门路等小学人事调整</td><td>8/8</td><td>高</td><td>上一批次已收录</td></tr><tr><td>半岛全媒体记者郝春梅/钟尚蕾</td><td>李沧多所中小学校长集中调整</td><td>涵盖58中附属初中等13校校长换帅</td><td>8/6-8/7</td><td>高</td><td>上一批次已收录</td></tr></tbody></table></div>
+<hr>
+<h3>四、本次搜索关键词清单</h3>
+<p><strong>主关键词（7 组）</strong>：</p>
+<ol><li>青岛教育局 最新通知 政策 2026</li><li>青岛 中考 招生 政策变化 2026</li><li>青岛 小升初 学区 划片 调整</li><li>青岛 学校 校长 人事变动 调整</li><li>山东省教育厅 中考改革 2026</li><li>青岛 高中 招生计划 变化</li><li>青岛市南区 市北区 李沧区 教体局 通知</li></ol>
+<p><strong>补充关键词（3 组）</strong>：</p>
+<ol><li>青岛 教育 新闻 8月13 8月14 2026</li><li>青岛 学校 新建 启用 2026年秋季</li><li>青岛 西海岸新区 即墨 胶州 教育 通知 2026</li><li>青岛市市南区 全国中小学科技教育实验区 教育部 公示</li></ol>
+<hr>
+<h3>五、趋势观察与后续建议</h3>
+<ul><li><strong>变化点</strong>：本次打破近三批次的零高态势（8/11、8/12、8/13 均为 0 条高重要度新信息），新截获 1 条国家级评选类的<strong>高重要度</strong>情报。</li><li><strong>后续监测重点</strong>：</li></ul>
+<ol><li>8/14-8/15 暑期读书班期间，可能对外发布新学期工作部署（如秋季开学准备、新学期教育要点）。</li><li>距离秋季学期开学（预计 9/1）不足 3 周，建议增加"开学准备""课后服务""新学期部署"类关键词。</li><li>科技教育实验区后续可能有具体落地政策（如"科创微小馆"100% 全覆盖的执行方案），建议监测。</li></ol>
+<ul><li><strong>数据规模</strong>：本次截获有效信息 5 条（1 高 1 中 3 回顾），与 8/13 批次（0 条新信息）相比有明显回升。</li></ul></div></section><section class="doc" id="d20260813"><div class="doc-hd"><h2>2026-08-13 <span class="tag">08点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-08-13 08:37</span></div><div class="doc-bd"><h2>青岛教育情报～2026-08-13（08点档）</h2>
+<p><strong>搜集时间</strong>：2026-08-13 08:36（北京时间）</p>
+<p><strong>搜集范围</strong>：青岛市（含市南、市北、李沧、崂山、城阳、西海岸等各区）</p>
+<p><strong>时间窗口</strong>：最近24-48小时（2026-08-11 08:36 至 2026-08-13 08:36）</p>
+<hr>
+<h3>本次结论</h3>
+<p>本次搜集暂无48小时内新增重大教育政策更新。暑期淡季特征持续，教育局官网最新更新停留在8月10日（教书育人榜样入围公示），上一批次人事调整新闻（8/7-8/9）已退出48小时窗口。</p>
+<hr>
+<h3>已检查的搜索关键词</h3>
+<ol><li>"青岛教育局 最新通知 政策 2026"</li><li>"青岛 中考 招生 政策变化 2026"</li><li>"青岛 小升初 学区 划片 调整"</li><li>"青岛 学校 校长 人事变动 调整"</li><li>"山东省教育厅 中考改革 2026"</li><li>"青岛 高中 招生计划 变化"</li><li>"青岛市南区 市北区 李沧区 教体局 通知"</li></ol>
+<hr>
+<h3>近期信息回顾（已超出48小时窗口，供参考）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛市教育局官网</td><td>2026年青岛市教书育人榜样入围公示</td><td>市教育局公布教书育人榜样入围名单</td><td>2026-08-10</td><td>低</td></tr><tr><td>网易新闻（转载）</td><td>市教育局召开"干部作风建设年"半年工作推进会</td><td>总结半年工作，提及中考六项微改革、二中蓝谷学校启用、五十八中北校区等7个在建项目进展</td><td>2026-08-07</td><td>中</td></tr><tr><td>半岛教育直通车/新浪财经</td><td>青岛24所局属学校校长书记调整</td><td>涵盖二中、九中、三十九中、五十八中等24所局属学校，多名80后走上校级管理岗位</td><td>2026-08-09</td><td>高</td></tr><tr><td>半岛都市报</td><td>市南区教育系统人事调整落定</td><td>德县路小学、天山小学、金门路小学等多所小学"一把手"变动</td><td>2026-08-08</td><td>高</td></tr><tr><td>青岛早报/观海新闻</td><td>李沧区多所中小学集中换帅</td><td>涵盖58中附属初中、文昌学校、世园学校等13所学校校长调整，多个教育集团成员校变更</td><td>2026-08-07</td><td>高</td></tr></tbody></table></div>
+<hr>
+<h3>与上批次对比</h3>
+<div class="tw"><table><thead><tr><th>对比项</th><th>8/12 08档</th><th>8/13 08档</th></tr></thead><tbody><tr><td>48小时窗口内新信息条数</td><td>1（教书育人榜样公示）</td><td>0</td></tr><tr><td>高重要度</td><td>0</td><td>0</td></tr><tr><td>中重要度</td><td>1</td><td>0</td></tr><tr><td>低重要度</td><td>0</td><td>0</td></tr><tr><td>趋势</td><td>暑期淡季</td><td>暑期淡季持续</td></tr></tbody></table></div>
+<hr>
+<h3>趋势判断</h3>
+<ol><li>暑期淡季特征明显，教育局官网更新频率降低</li><li>上一批次人事调整新闻（8/7-8/9）已完全退出48小时窗口</li><li>开学临近（预计8月底），建议8/20前后加密监测频率，以捕捉开学前可能出现的预备性通知（如开学安排、新生报到、课后服务等）</li><li>8/20档可增加"青岛 开学 准备 通知"等关键词</li></ol></div></section><section class="doc" id="d20260812"><div class="doc-hd"><h2>2026-08-12 <span class="tag">08点档</span></h2><span class="mt">生成于 2026-08-12 08:04</span></div><div class="doc-bd"><h2>青岛教育情报搜集报告</h2>
+<p><strong>搜集时间</strong>：2026-08-12 08:02（北京时间，08 点档）</p>
+<p><strong>搜索窗口</strong>：最近 48-72 小时</p>
+<p><strong>执行批次</strong>：automation-1785654090349</p>
+<hr>
+<h3>搜集结果</h3>
+<p>本次共完成 7 组关键词搜索 + 3 组补充搜索。48 小时窗口内新增 1 条信息，72 小时窗口内另发现 3 条未报告信息。上一批次（8/9-8/10）的局属学校人事调整新闻已进入尾声阶段，无新增进展。</p>
+<h4>信息汇总表</h4>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛市教育局官网</td><td>2026年青岛市教书育人榜样入围名单公示</td><td>全市共10人入围教书育人榜样，公示期8月10日至14日</td><td>2026-08-10</td><td>低</td></tr><tr><td>青岛政务网</td><td>市教育局召开"干部作风建设年"半年工作推进会</td><td>总结上半年工作，部署下半年任务，提及二中蓝谷学校启用、五十八中北校区进展等</td><td>2026-08-07</td><td>中</td></tr><tr><td>青岛市教育局官网</td><td>2026年度青岛市市属事业单位公开遴选工作人员拟聘用人选公示</td><td>冯艳萍等3名拟聘用人选公示，公示期8月7日至13日</td><td>2026-08-07</td><td>低</td></tr><tr><td>青岛市人社局</td><td>2026年青岛西海岸新区公开招聘非事业编制幼儿教师储备人选（第三批）</td><td>西海岸新区招聘非编幼儿教师72人，委托黄岛区人力资源公司组织</td><td>2026-08-07</td><td>低</td></tr></tbody></table></div>
+<hr>
+<h3>与上批次对比</h3>
+<div class="tw"><table><thead><tr><th>对比维度</th><th>08-11 批次</th><th>08-12 批次</th><th>变化</th></tr></thead><tbody><tr><td>信息条数</td><td>4 条</td><td>4 条</td><td>持平</td></tr><tr><td>高重要度</td><td>3 条（人事调整二次传播）</td><td>0 条</td><td>-3</td></tr><tr><td>中重要度</td><td>0 条</td><td>1 条（干部作风推进会）</td><td>+1</td></tr><tr><td>低重要度</td><td>1 条</td><td>3 条</td><td>+2</td></tr></tbody></table></div>
+<p><strong>趋势分析</strong>：上一批次报道的局属24校人事调整、市南区/李沧区校长调整等重大新闻已退出48小时窗口，无新增高重要度事件。暑期淡季特征明显，预计8月20日前后开学预备期可能出现新动态。</p>
+<hr>
+<h3>重点项目进展回顾（来自干部作风建设年会议通报）</h3>
+<p>以下项目进展在8月7日发布的"干部作风建设年"半年工作推进会中有明确提及，属于已确认的在建/推进项目：</p>
+<ol><li><strong>青岛健康科技职业学院</strong>：已正式招生运行</li><li><strong>青岛二中蓝谷学校</strong>：已启用招生（2026年计划招生6个班240人）</li><li><strong>青岛五十八中北校区</strong>：进展顺利</li><li><strong>青岛二中东校区</strong>：进展顺利</li><li><strong>青岛十七中扩建项目</strong>：进展顺利</li><li><strong>高新职校改扩建项目</strong>：进展顺利</li><li><strong>青岛职教园二期</strong>：已开工建设，三期推动立项中</li></ol>
+<hr>
+<h3>已检查的搜索关键词</h3>
+<ol><li>"青岛教育局 最新通知 政策 2026"</li><li>"青岛 中考 招生 政策变化 2026"</li><li>"青岛 小升初 学区 划片 调整"</li><li>"青岛 学校 校长 人事变动 调整"</li><li>"山东省教育厅 中考改革 2026"</li><li>"青岛 高中 招生计划 变化"</li><li>"青岛市南区 市北区 李沧区 教体局 通知"</li><li>补充搜索："青岛市教育局 2026年8月 市属事业单位 公告"</li><li>补充搜索："青岛市教育局 干部作风建设年 半年工作推进会 2026年8月"</li><li>补充搜索："青岛 教书育人榜样 2026 入围"</li></ol>
+<hr>
+<h3>说明</h3>
+<ul><li>本次搜集无 24-48 小时内新增重大教育政策调整或高重要度事件</li><li>上一批次（8/9-8/10）的局属学校大规模人事调整新闻已进入传播尾声</li><li>暑期淡季运行符合预期规律</li><li>建议在8月20日前后加密监测频率，以捕捉开学前可能的预备性通知</li></ul></div></section><section class="doc" id="d20260811"><div class="doc-hd"><h2>2026-08-11 <span class="tag">08点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-08-11 08:09</span></div><div class="doc-bd"><h2>青岛教育情报 ～ 2026-08-11 08:00</h2>
+<h3>本次搜集概要</h3>
+<ul><li><strong>搜集时间</strong>：2026-08-11 08:07（北京时间）</li><li><strong>执行档期</strong>：08:00 档（暑期淡季）</li><li><strong>搜索关键词组数</strong>：7 组（均已执行）</li><li><strong>有效信息条数</strong>：4 条（48 小时内窗口内新发现或新确认）</li><li><strong>高重要度</strong>：3 条 | <strong>中重要度</strong>：0 条 | <strong>低重要度</strong>：1 条</li><li><strong>本期特征</strong>：与 8/10 批次相比，人事调整新闻继续被多家媒体转载扩散；本期新增 1 项低重要度公示类信息，无全新重大政策事件</li></ul>
+<hr>
+<h3>一、本期高价值信息（24-48 小时内）</h3>
+<div class="tw"><table><thead><tr><th>#</th><th>信息来源</th><th>标题</th><th>摘要（≤50字）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>1</td><td>半岛教育直通车 / 新浪财经</td><td>青岛多所局属学校校长、书记调整，一批80后掌舵老牌名校</td><td>24所局属普高职校完成校长书记调整，王先军任二中党委书记兼二中教育集团总校长</td><td>2026-08-09</td><td>高</td></tr><tr><td>2</td><td>半岛全媒体记者 郝春梅</td><td>市南区教育系统人事调整落定，多校"一把手"变动</td><td>市南区多所小学调整：德县路、天山、金门路、八大峡、太平路、香港路、新昌路等一把手易人</td><td>2026-08-08</td><td>高</td></tr><tr><td>3</td><td>青岛早报 / 观海新闻（钟尚蕾）</td><td>李沧多所中小学校长集中调整，涵盖58中附属初中、文昌学校、世园学校等</td><td>邵纲任58中附属初中书记、邓学军任文昌学校校长等13所校级岗位调整，含3个教育集团重组</td><td>2026-08-07</td><td>高</td></tr><tr><td>4</td><td>青岛市教育局官网</td><td>2026年度青岛市"新时代好少年"市教育局直属学校候选人推荐公示</td><td>5名候选人推荐名单公示期8月7-10日，公示电话85912251</td><td>2026-08-06</td><td>低</td></tr></tbody></table></div>
+<blockquote><strong>注</strong>：上述 1-3 条事件在 8/10 批次中已首次收录。本批次再次出现在搜索结果中，意味着这批人事调整新闻已进入<strong>二次传播扩散阶段</strong>（被腾讯、新浪、头条号等聚合平台陆续转载），影响力持续放大。</blockquote>
+<hr>
+<h3>二、本期未发现但保持监测的预警</h3>
+<p>以下事项在本批次搜索中<strong>未出现新增动态</strong>，但因临近秋季开学，仍需持续监测：</p>
+<ul><li><strong>二中蓝谷学校首年办学质量</strong>：2026 计划招生 240 人，8 个班配置，硬件与师资落地情况</li><li><strong>浮山后片区五校电脑派位首次落地效果</strong>：8 月底前可能出现的家长咨询与学区房价变动</li><li><strong>李沧石牛山路学校首年启用</strong>：李沧北片资源接力 + 27 中暂停招生的衔接效果</li><li><strong>职普互转实施细则配套</strong>：8 月底前可能发布的具体试点学校名单与转段流程</li></ul>
+<hr>
+<h3>三、政策与背景回顾（本期未列入 48 小时窗口）</h3>
+<p>本月和近期已发布的政策文件，时间早于 48 小时窗口，列于此处便于纵深追踪：</p>
+<ol><li><strong>2026-03-30 青岛市教育局</strong>：中考六项"微改革"完整方案——新增优质学位 814 个、自招名额 +25、指标生名额 +609、D 等比例从 25% 降至 15%。</li><li><strong>2026-04-30 青岛市教育局</strong>：义务教育学校招生入学工作通知——全市小学一年级计划招生约 10.7 万人，初中一年级计划招生约 11.7 万人。</li><li><strong>2026-05-08 各区教体局</strong>：四区（市南、市北、李沧、崂山）义务教育招生新政——</li></ol>
+<ul><li>市南：26 中教育集团首设"市南班"、青岛 51 中挂牌"市南区实验初中"</li><li>市北：浮山后片区首次五校电脑派位（市北第一实验学校加入）</li><li>李沧：青岛石牛山路学校启用，成立 63 中教育集团、枣山小学教育集团</li><li>崂山：崂山一中秋季启用，深圳路小学学区调整</li></ul>
+<ol><li><strong>2026-05-15 山东省教育厅</strong>：山东省新一轮基础教育综合改革扎实推进——全面推行"分数+等级"中考结果呈现，60% 以上指标生分配到初中，普职学籍互转在全省实施。</li><li><strong>2026-07-27 市北 / 7-25 市南等区</strong>：21 所热门小学发布 2027 学位预警，落户时限前置。</li><li><strong>2026-08-05 前后 各区市</strong>：青岛多个区市发布 2026 年教育工作要点——崂山新增学位 4140 个、城阳启动新公办普高建设、西海岸启用 6 所校。</li></ol>
+<hr>
+<h3>四、关键观察与判断</h3>
+<h4>本期核心结论</h4>
+<p>本次搜集延续上一批次的主题：<strong>暑期人事调整</strong>是开学前最显著的动作。本期新增了 1 项低重要度的"新时代好少年"公示类活动，本质属于常规性的德育评选。除公示外，本期<strong>未发现 8/10-8/11 期间新发布的重大政策、招生改革或校长人事变动</strong>——这是一个合理的预期：</p>
+<ol><li><strong>节奏正常</strong>：本批次人事调整在 8/7-8/9 三天内集中发布，主流媒体已在 8/9 完成首轮报道。本批次搜索结果显示该批新闻进入<strong>二次传播扩散阶段</strong>（被新浪、腾讯、头条等平台转载），至 8/11 已基本完成传播。</li><li><strong>开学前节奏</strong>：距 9/1 秋季开学仅剩约 20 天，按往年经验，新一轮重大政策新闻通常会在开学第一周前后（教师节前后）出现一次小高峰。</li><li><strong>暑期淡季特征</strong>：7-8 月整体属于教育系统的政策"静默期"，重大改革文件通常集中发布在每年 3-5 月（招生季）。</li></ol>
+<h4>与上批次对比</h4>
+<ul><li><strong>人事调整新闻</strong>：3 条高重要度——已确认（与 8/10 批次相同，人事调整已基本落地）</li><li><strong>新事件</strong>：1 条低重要度（新时代好少年公示）</li><li><strong>变化</strong>：无新增重大政策、新建校、人事变动的"新爆点"</li></ul>
+<h4>对秋季开学的潜在影响（与上批次判断一致）</h4>
+<ul><li>二中、39 中、五十八中等头部校核心岗位全部完成调整，需关注开学后的具体教学方案落实</li><li>浮山后片区 5 校电脑派位首次落地，对市北 + 崂山家长选房、择校策略影响重大</li><li>李沧石牛山路学校首年启用，与 27 中暂停招生形成资源接力</li></ul>
+<hr>
+<h3>五、已检查的搜索关键词（执行过程留痕）</h3>
+<p>本次执行了以下 7 组关键词搜索：</p>
+<ol><li>✅ "青岛教育局 最新通知 政策 2026"（命中多条，含官网通知列表、新时代好少年公示）</li><li>✅ "青岛 中考 招生 政策变化 2026"（命中 3 月微改革完整方案、5 月山东改革）</li><li>✅ "青岛 小升初 学区 划片 调整"（命中 5 月四区招生新政汇总）</li><li>✅ "青岛 学校 校长 人事变动"（命中 8/9 局属 + 8/8 市南 + 8/7 李沧三组人事调整）</li><li>✅ "山东省教育厅 中考改革 2026"（命中潍坊、聊城等 16 市经验）</li><li>✅ "青岛 高中 招生计划 变化"（命中普高扩招 814 学位的具体方案）</li><li>✅ "青岛市南区 市北区 李沧区 教体局 通知"（命中各区 5 月 8 日发布的招生政策）</li></ol>
+<p><strong>结论</strong>：本次 48 小时窗口内未发现全新重大事件；上一批次的人事调整持续扩散传播。开学前的开学第一周预计将迎来新一轮新闻小高峰。</p>
+<hr>
+<h3>六、信息源信誉评估</h3>
+<ul><li><strong>官方渠道（高可信）</strong>：青岛市教育局官网（edu.qingdao.gov.cn）、市南/市北/李沧/崂山区政府官网</li><li><strong>本地权威媒体（高可信）</strong>：青岛日报、观海新闻、青岛早报、半岛都市报、半岛教育直通车</li><li><strong>转载/聚合（中可信）</strong>：腾讯新闻、新浪财经、头条号——转载过程中偶有细节差异，已交叉核对原文</li><li><strong>不需要标注"待核实"</strong>：本期所有信息均有官方或本地权威媒体确认</li></ul>
+<hr>
+<h3>七、本期变化追踪（前批次对照）</h3>
+<div class="tw"><table><thead><tr><th>指标</th><th>8/10 批次</th><th>8/11 批次</th><th>变化</th></tr></thead><tbody><tr><td>有效信息条数</td><td>5 条</td><td>4 条</td><td>-1</td></tr><tr><td>高重要度条数</td><td>3 条</td><td>3 条</td><td>0（同一批人事调整再次确认）</td></tr><tr><td>中重要度条数</td><td>1 条</td><td>0 条</td><td>-1（市教育局会议动态已超 48h 窗口）</td></tr><tr><td>低重要度条数</td><td>1 条</td><td>1 条</td><td>0（不同的事件：信息学奥赛 → 新时代好少年公示）</td></tr><tr><td>主题主线</td><td>人事调整</td><td>人事调整</td><td>主题延续</td></tr><tr><td>全新重大政策</td><td>无</td><td>无</td><td>持续空白</td></tr></tbody></table></div>
+<p><strong>判断</strong>：8/11 08:00 档属于平稳运行档，无突发事件。开学前两周（8/20 前后）建议加密监测频率（每 4 小时一次），以捕捉开学前可能出现的预备性新闻。</p></div></section><section class="doc" id="d20260810"><div class="doc-hd"><h2>2026-08-10 <span class="tag">08点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-08-10 12:02</span></div><div class="doc-bd"><h2>青岛教育情报 ～ 2026-08-10 08:00</h2>
+<h3>本次搜集概要</h3>
+<ul><li><strong>搜集时间</strong>：2026-08-10 11:59（北京时间）</li><li><strong>执行档期</strong>：08:00 档（周末/暑期时段）</li><li><strong>搜索关键词组数</strong>：7 组（均已执行）</li><li><strong>有效信息条数</strong>：5 条（24-48 小时内新发布）</li><li><strong>高重要度</strong>：3 条 | <strong>中重要度</strong>：1 条 | <strong>低重要度</strong>：1 条</li></ul>
+<hr>
+<h3>一、近期高价值信息（24-48 小时内）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（≤50字）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>半岛教育直通车 / 新浪财经</td><td>青岛多所局属学校校长、书记调整，一批80后掌舵老牌名校</td><td>24所局属普高职校完成校长书记调整，王先军任二中党委书记，孙帅升任39中校长</td><td>2026-08-09</td><td>高</td></tr><tr><td>半岛全媒体记者 郝春梅</td><td>市南区教育系统人事调整落定，多校"一把手"变动</td><td>市南区多所小学调整：德县路、天山、金门路、八大峡、太平路等校一把手易人</td><td>2026-08-08</td><td>高</td></tr><tr><td>青岛早报 / 观海新闻（钟尚蕾）</td><td>李沧多所中小学校长集中调整，涵盖58中附属初中、文昌学校、世园学校等</td><td>邵纲任58中附属初中书记、邓学军任文昌学校校长等13所校级岗位调整</td><td>2026-08-07</td><td>高</td></tr><tr><td>青岛市教育局官网</td><td>市教育局召开"干部作风建设年"半年工作推进会</td><td>全面贯彻教育方针、推动基础教育资源优化配置、中考六项"微改革"等被列为成效</td><td>2026-08-07</td><td>中</td></tr><tr><td>青岛市教育局官网</td><td>一金六银一铜，青岛信息学奥赛获优异成绩</td><td>青岛学子在全国信息学奥赛中斩获1金6银1铜</td><td>2026-08-06</td><td>低</td></tr></tbody></table></div>
+<hr>
+<h3>二、近期背景动态（5-7 天内，供关联参考）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（≤50字）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛日报 / 观海新闻（杨琪琪等）</td><td>一域一特色，全域共提升——青岛多个区市发布2026年教育工作要点</td><td>各区市部署：崂山新增学位4140个、城阳启动新公办普高建设、西海岸启用6所校</td><td>2026-08-05 前后</td><td>中</td></tr><tr><td>半岛教育</td><td>青岛二中蓝谷学校 2026 年启用，240 学位面向市区+即墨蓝谷</td><td>二中增设蓝谷学校，全市公办优质学位新增814个</td><td>2026-08 上旬</td><td>中</td></tr></tbody></table></div>
+<hr>
+<h3>三、政策与背景回顾（本月新动态但发布于更早日期）</h3>
+<p>本月（8 月）新发布且值得关注的政策文件，但发布时间早于 48 小时窗口，列在此处便于纵深追踪：</p>
+<ol><li><strong>2026-03-30 青岛市教育局</strong>：《关于做好 2026 年全市初中学业水平考试与普通高中招生工作的通知》——中考六项"微改革"全部落地，新增优质学位 814 个、自招名额 +393、指标生名额 +609、D 等比例从 25% 降至 15%。来源：edu.qingdao.gov.cn。</li></ol>
+<ol><li><strong>2026-04-30 青岛市教育局</strong>：《关于做好 2026 年全市义务教育学校招生入学工作的通知》——全市小学一年级计划招生约 10.7 万人，初中一年级计划招生约 11.7 万人。</li></ol>
+<ol><li><strong>2026-05 各区教体局</strong>：四区（市南、市北、李沧、崂山）义务教育招生新政——</li></ol>
+<ul><li>市南：26 中教育集团首设"市南班"、青岛 51 中挂牌"市南区实验初中"</li><li>市北：浮山后片区首次五校电脑派位（市北第一实验学校加入）</li><li>李沧：青岛石牛山路学校启用，成立 63 中教育集团、枣山小学教育集团</li><li>崂山：崂山一中秋季启用，深圳路小学学区调整</li></ul>
+<hr>
+<h3>四、关键观察与判断</h3>
+<h4>本期核心结论</h4>
+<p>进入 8 月，青岛教育领域的主旋律是<strong>暑期人事调整</strong>——这是每年开学前的常规密集动作。本轮调整有 3 个值得关注的特征：</p>
+<ol><li><strong>覆盖层级深</strong>：从局属高中到区属小学，三级同步推进（市南、市北、李沧 + 局属普高/职校）。仅本批次统计可见的人事变动涉及约 40+ 个校级岗位。</li></ol>
+<ol><li><strong>干部年轻化</strong>：多所学校出现 80 后干部走向核心岗位（如 39 中新任校长孙帅来自五十八中副校长岗位，五十八中高新校区多由青年干部补位）。</li></ol>
+<ol><li><strong>集团化加速</strong>：李沧区同步新设两个教育集团（63 中教育集团、枣山小学教育集团），与 5 月发布的小升初方案中的"集团化办学"方向完全吻合。</li></ol>
+<h4>对秋季开学的潜在影响</h4>
+<ul><li>二中、39 中、五十八中等头部校核心岗位全部完成调整，需关注开学后的具体教学方案落实</li><li>浮山后片区 5 校电脑派位首次落地，对市北+崂山家长选房、择校策略影响重大</li><li>李沧石牛山路学校首年启用，与 27 中暂停招生形成资源接力</li></ul>
+<hr>
+<h3>五、已检查的搜索关键词（执行过程留痕）</h3>
+<p>本次执行了以下 7 组关键词搜索：</p>
+<ol><li>✅ "青岛教育局 最新通知 政策 2026"（命中多条，含官网通知列表）</li><li>✅ "青岛 中考 招生 政策变化 2026"（命中 3 月微改革完整方案）</li><li>✅ "青岛 小升初 学区 划片 调整"（命中 5 月四区招生新政）</li><li>✅ "青岛 学校 校长 人事变动"（命中本批次最关键的人事新闻）</li><li>✅ "山东省教育厅 中考改革 2026"（命中潍坊、聊城等 16 市经验）</li><li>✅ "青岛 高中 招生计划 变化"（命中普高扩招、新增 814 学位等）</li><li>✅ "青岛市南区 市北区 李沧区 教体局 通知"（命中各区招生政策）</li></ol>
+<p><strong>结论</strong>：本次搜集围绕"暑期人事调整"主线，得到 5 条 48 小时内新信息。无重大政策调整、招生新政等大事件；当前是开学前的过渡期。</p>
+<hr>
+<h3>六、信息源信誉评估</h3>
+<ul><li><strong>官方渠道（高可信）</strong>：青岛市教育局官网（edu.qingdao.gov.cn）、市南/市北/李沧/崂山区政府官网</li><li><strong>本地权威媒体（高可信）</strong>：青岛日报、观海新闻、青岛早报、半岛都市报、半岛教育直通车</li><li><strong>转载/聚合（中可信）</strong>：腾讯新闻、新浪财经、头条号——转载过程中偶有细节差异，已交叉核对原文</li><li><strong>不需要标注"待核实"</strong>：本期所有信息均有官方或本地权威媒体确认</li></ul></div></section><section class="doc" id="d20260806"><div class="doc-hd"><h2>2026-08-06 <span class="tag">08点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-08-06 07:51</span></div><div class="doc-bd"><h2>青岛教育情报日报</h2>
+<p><strong>搜集时间</strong>：2026-08-06 08:00（北京时间）</p>
+<p><strong>执行人</strong>：教育情报自动化</p>
+<p><strong>本次搜集关键词覆盖</strong>：7 组（详见文末）</p>
+<hr>
+<h3>一、本次搜集结论</h3>
+<p class="note">本次搜集暂无 24-48 小时内新增的重大教育政策动态。</p>
+<p>8 月初正值青岛中小学暑假期间，教育局、各区教体局近期无重大新政策发布。最近一次有官方教育新闻动作是 7 月 13 日（详见下方"近期重要动态回顾"）。当日已严格按要求执行了 7 组关键词的搜索，未做无依据编造。</p>
+<hr>
+<h3>二、近期重要动态回顾（1 个月内，供持续关注）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛日报/观海新闻</td><td>青岛浮山后三所热点初中换帅，新校长今天亮相</td><td>浮山后片区二实验分校、四实验、六十五中校长轮岗</td><td>2026-07-13</td><td>中</td></tr><tr><td>网易号/百家论大学</td><td>山东大学人事大调整，威海校区迎来新校长，青岛校区迎来新书记</td><td>刘兆军兼任威海校区校长，刘健任青岛校区书记</td><td>2026-07-13</td><td>低（高校，不属基础教育）</td></tr><tr><td>青岛早报/观海新闻</td><td>四区中小学招生新政：市南班来了、新校开了、学区调了</td><td>5月8日发布市南/市北/李沧/崂山2026年招生方案</td><td>2026-05-11</td><td>高</td></tr><tr><td>青岛市教育局</td><td>2026 年全市义务教育学校招生入学工作的通知</td><td>小学招生 10.7 万人，初中 11.7 万人；一网通办</td><td>2026-04-30</td><td>高</td></tr><tr><td>青岛日报/半岛新闻</td><td>2026 青岛中考"微改革"释放六大利好</td><td>新增局属公办普高学位 814 个，等级比例优化</td><td>2026-03-30</td><td>高</td></tr><tr><td>青岛市教育局</td><td>2026 年初中学业水平考试与普通高中招生工作通知</td><td>普高计划 9.6 万毕业生，自招比例 1:1，6 月 13-16 日笔试</td><td>2026-03-30</td><td>高</td></tr><tr><td>青岛日报/观海新闻</td><td>一域一特色，全域共提升：青岛多个区市发布 2026 年教育工作要点</td><td>市南/市北/李沧/崂山/西海岸/城阳/胶州要点齐发</td><td>2026-03-10</td><td>中</td></tr></tbody></table></div>
+<hr>
+<h3>三、已检查关键词清单</h3>
+<ol><li>"青岛教育局 最新通知 政策 2026"</li><li>"青岛 中考 招生 政策变化 2026"</li><li>"青岛 小升初 学区 划片 调整"</li><li>"青岛 学校 校长 人事变动 调整"</li><li>"山东省教育厅 中考改革 2026"</li><li>"青岛 高中 招生计划 变化"</li><li>"青岛市南区 市北区 李沧区 教体局 通知"</li></ol>
+<hr>
+<h3>四、附：值得继续跟踪的潜在热点（人工建议）</h3>
+<ul><li>8 月中下旬：2026 级新初一/高一开学前，是否有招生补录、名额调整等后续通知</li><li>8 月底前：青岛二中蓝谷学校、青岛石牛山路学校、崂山一中、市北区第一实验学校等新启用学校的开校进展</li><li>8 月底：市南区义务教育"长幼随学"政策落实情况回访</li><li>9 月初：2026 年秋季学期正式开学后，各区教育质量监测、双减政策落地反馈</li></ul>
+<p>如需就上述任一话题深挖，请直接告知。</p></div></section><section class="doc" id="d20260805"><div class="doc-hd"><h2>2026-08-05 <span class="tag">08点档</span></h2><span class="mt">生成于 2026-08-05 07:52</span></div><div class="doc-bd"><h2>青岛教育情报搜集报告</h2>
+<p><strong>执行时间</strong>：2026-08-05 08:00（早间档）</p>
+<p><strong>情报窗口</strong>：24-48 小时（2026-08-03 ~ 2026-08-05）</p>
+<p><strong>搜集范围</strong>：青岛市（含市南、市北、李沧、崂山、城阳、西海岸、即墨、平度、胶州等各区）</p>
+<p><strong>执行状态</strong>：正常运行</p>
+<hr>
+<h3>一、本时段搜集结果总览</h3>
+<div class="tw"><table><thead><tr><th>项目</th><th>数值</th></tr></thead><tbody><tr><td>已检查关键词组数</td><td>7 组（+ 2 组补充搜索）</td></tr><tr><td>命中青岛相关新信息条数</td><td>0 条（24-48h 窗口内无重大教育政策更新）</td></tr><tr><td>高重要度</td><td>0</td></tr><tr><td>中重要度</td><td>0</td></tr><tr><td>低重要度</td><td>0</td></tr></tbody></table></div>
+<p><strong>结论</strong>：本次搜集暂无重大教育政策更新。青岛教育系统当前处于「中考后-开学前」的暑期静默期延续阶段，未在 24-48 小时窗口内出现新的政策发布、招生调整、学区变更或人事变动。</p>
+<hr>
+<h3>二、本次已检查的搜索关键词</h3>
+<ol><li>「青岛教育局 最新通知 政策 2026年8月」</li><li>「青岛 中考 招生 政策变化 2026」</li><li>「青岛 小升初 学区 划片 调整 2026」</li><li>「青岛 学校 校长 人事变动 2026」</li><li>「山东省教育厅 中考改革 2026」</li><li>「青岛 高中 招生计划 变化 2026」</li><li>「青岛市南 市北 李沧 教体局 通知 2026年8月」</li><li>补充：「青岛 教育 通知 8月5日 8月4日 2026」</li><li>补充：「青岛 开学 新学期 2026 秋季 高中 初中」</li></ol>
+<hr>
+<h3>三、近期窗口外相关动态备忘（已发生，供参考）</h3>
+<p>以下为 7 月下旬至 8 月初已发生的重要动态，非本时段新发现，仅作为档案背景保留：</p>
+<h4>3.1 全市层面</h4>
+<div class="tw"><table><thead><tr><th>时间</th><th>事项</th><th>重要度</th><th>备注</th></tr></thead><tbody><tr><td>2026-08-01</td><td>中央教育工作领导小组秘书组调研青岛教育工作</td><td>中</td><td>全国性调研，非青岛政策</td></tr><tr><td>2026-07-29</td><td>杨克敏调研胶州市教育工作</td><td>低</td><td>局领导调研动态</td></tr><tr><td>2026-07-28</td><td>杨克敏调研专门教育工作</td><td>低</td><td>局领导调研动态</td></tr><tr><td>2026-07-28</td><td>公布 2026 年青岛市中小学暑假规范办学监督举报方式</td><td>中</td><td>暑假规范办学举报渠道</td></tr><tr><td>2026-07-24</td><td>杨克敏调研平度市教育工作</td><td>低</td><td>局领导调研动态</td></tr><tr><td>2026-07-21</td><td>关于青岛市 2026 年职业院校教师国家级培训</td><td>低</td><td>师资培训通知</td></tr><tr><td>2026-07-17</td><td>2026 年度青岛市教育局所属事业单位公开招聘工作人员</td><td>低</td><td>事业单位招聘</td></tr><tr><td>2026-07-15</td><td>青岛市教育局关于印发《2026 年中小学暑假工作通知》</td><td>中</td><td>暑期工作部署</td></tr><tr><td>2026-07-10</td><td>青岛市义务教育阶段教辅材料推荐选用结果公示</td><td>低</td><td>教辅材料公示</td></tr></tbody></table></div>
+<h4>3.2 区市层面</h4>
+<div class="tw"><table><thead><tr><th>时间</th><th>区市</th><th>事项</th><th>重要度</th></tr></thead><tbody><tr><td>2026-08-02</td><td>平度市</td><td>农村薄弱学校食堂设施设备升级项目招标（281.3 万元）</td><td>低</td></tr><tr><td>2026-07-25</td><td>李沧区</td><td>发布 2028 年入学学位预警（实验小学/沧口学校/枣山小学）</td><td>中</td></tr><tr><td>2026-07-23</td><td>市南区</td><td>「海洋杯」中小学绘画书法大赛启动（市北区主办）</td><td>低</td></tr><tr><td>2026-07-06</td><td>李沧区</td><td>暑期学校室外体育场地设施对外开放（至 8-30）</td><td>低</td></tr><tr><td>2026-07-29</td><td>李沧区</td><td>学校食堂大宗食材配送项目征集公告</td><td>低</td></tr></tbody></table></div>
+<h4>3.3 重要政策与文件（4-6 月发布，本时段仍生效）</h4>
+<ul><li><strong>2026 年青岛高中招生政策</strong>（3-30 发布）：学位扩容 814 个、志愿类型简化（合并为自招/统招/艺体/国际四类）、指标生新增 609 个、第一/第二组合 D 等级比例由 25% 降至 15%、新增 24 所公办普高试点普职互转。</li><li><strong>2026 年市内四区+高新区义务教育招生政策</strong>（5-9 发布）：浮山后片区首次实现五校电脑派位、26 中教育集团设立「市南班」、李沧启用石牛山路九年一贯制学校、崂山一中正式启用招生。</li><li><strong>西海岸新区 2026 招生政策</strong>（6-23 发布）：秋季启用 3 所新公办校（实验初中东校区、太行山路二小、香江路二小华顶山路校区）并实现集团化办学；2 所校区撤并整合。</li><li><strong>即墨区 2026 招生政策</strong>（6-23 发布）：一年级招 1.35 万人、七年级招 1.6 万人；继续实行「一网通办」。</li><li><strong>2026-2027 学年度第一学期校历</strong>（6-05 发布）：8-30 报到、8-31 上课、11-5~11-9 义务教育阶段秋假、1-25 义务教育阶段寒假开始。</li></ul>
+<hr>
+<h3>四、未来重点关注节点</h3>
+<div class="tw"><table><thead><tr><th>时间节点</th><th>关注事项</th></tr></thead><tbody><tr><td>2026-08-15 前</td><td>各高中阶段学校补录及分数带录取后续通知</td></tr><tr><td>2026-08-18</td><td>李沧区 2026 年局属中小学学生校服采购开标</td></tr><tr><td>2026-08-25~30</td><td>各高中阶段学校高一新生报到注册通知</td></tr><tr><td>2026-08-30</td><td>中小学正式报到日，秋季开学工作全面部署</td></tr><tr><td>2026-08-31</td><td>全市中小学正式上课</td></tr></tbody></table></div>
+<hr>
+<h3>五、舆情监测与提醒</h3>
+<ol><li><strong>持续静默期判断</strong>：青岛教育系统仍处于「中考出分后-秋季开学前」的政策静默期。8 月上旬（8-1 至 8-10）历史上较少发布重大新政，主要为常规事务性通知（人事公示、采购公告、培训通知）。</li><li><strong>潜在关注方向</strong>：</li></ol>
+<ul><li>8 月中下旬可能出现高一/初一新生报到相关通知</li><li>开学前一周可能出现校历补充、防疫/安全/收费类通知</li><li>8 月底可能出现新学期教研工作部署</li></ul>
+<ol><li><strong>数据来源健康度</strong>：青岛市教育局官网、青岛政务网、半岛都市报、青岛新闻网、青岛日报等官方与本地权威渠道信息更新正常，无异常。</li></ol>
+<hr>
+<p><strong>报告生成时间</strong>：2026-08-05 08:00 CST</p>
+<p><strong>下次自动执行</strong>：2026-08-05 20:00（晚间档）</p></div></section><section class="doc" id="d20260804"><div class="doc-hd"><h2>2026-08-04 <span class="tag">08点档</span></h2><span class="mt">生成于 2026-08-04 08:34</span></div><div class="doc-bd"><h2>青岛教育情报整理</h2>
+<p><strong>搜集时间</strong>：2026-08-04 08:30（北京时间）</p>
+<p><strong>覆盖时段</strong>：最近 24-48 小时（2026-08-02 至 2026-08-04）</p>
+<p><strong>搜集关键词</strong>：7 组</p>
+<hr>
+<h3>结论</h3>
+<p>本次搜集暂无 48 小时内的重大教育政策更新。当前处于暑假中期（8月初），青岛教育系统进入政策静默期。此前（7月底）发布的最新动态为学位预警与暑期规范办学通知，距今约 7-10 天，未纳入本次48小时窗口。</p>
+<hr>
+<h3>已检查的搜索关键词</h3>
+<div class="tw"><table><thead><tr><th>序号</th><th>关键词</th><th>最新命中</th><th>状态</th></tr></thead><tbody><tr><td>1</td><td>青岛教育局 最新通知 政策 2026</td><td>7/28 暑期规范办学举报方式</td><td>48h内无新结果</td></tr><tr><td>2</td><td>青岛 中考 招生 政策变化 2026</td><td>3/30 中考招生政策发布</td><td>48h内无新结果</td></tr><tr><td>3</td><td>青岛 小升初 学区 划片 调整</td><td>5/9 各区招生政策发布</td><td>48h内无新结果</td></tr><tr><td>4</td><td>青岛 学校 校长 人事变动 调整</td><td>7/14 胶州博雅新校长</td><td>48h内无新结果</td></tr><tr><td>5</td><td>山东省教育厅 中考改革 2026</td><td>5/23 中考改革报道</td><td>48h内无新结果</td></tr><tr><td>6</td><td>青岛 高中 招生计划 变化</td><td>4/26 招生简章汇总</td><td>48h内无新结果</td></tr><tr><td>7</td><td>青岛市南区 市北区 李沧区 教体局 通知</td><td>7/28 市南暑期规范办学</td><td>48h内无新结果</td></tr></tbody></table></div>
+<hr>
+<h3>政策静默期背景分析</h3>
+<ul><li><strong>暑假周期</strong>：8月初为青岛市中小学暑假中期，此阶段政策发布通常进入静默期</li><li><strong>中考后窗口</strong>：2026年中考已于6月中旬完成，8月1日中职录取结束，招生工作已收尾</li><li><strong>开学前瞻</strong>：预计8月下旬将陆续发布秋季开学通知、新生报到安排等</li><li><strong>学位预警提醒</strong>：7月25-27日市内四区集中发布2027年小学入学学位预警，共涉及21所学校，建议子怡留意相关学区家庭咨询需求</li></ul>
+<hr>
+<h3>本月前期动态备忘（7月下旬）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛市教育局</td><td>暑期规范办学行为监督举报方式公布</td><td>暑假期间严禁集体补课和提前返校，公布各区举报电话</td><td>2026-07-28</td><td>中</td></tr><tr><td>市南教体局</td><td>2026年市南区小学入学学位预警</td><td>大学路/文登路/实验小学3校预警，落户截止2026-09-01</td><td>2026-07-27</td><td>中</td></tr><tr><td>市北教体局</td><td>2026年市北区小学入学学位预警</td><td>10所小学预警（含第一实验学校），落户截止2026-07-31</td><td>2026-07-27</td><td>中</td></tr><tr><td>李沧教体局</td><td>2026年李沧区义务教育入学学位预警</td><td>实验小学/沧口学校/枣山小学3校预警，落户截止2026-08-01</td><td>2026-07-25</td><td>中</td></tr><tr><td>胶州博雅中学</td><td>刘花兰出任博雅中学总校长</td><td>原上海存志集团校长携"活力教学"理念回归山东，7/14就任</td><td>2026-07-14</td><td>低</td></tr></tbody></table></div>
+<hr>
+<p class="note">下一轮搜集：2026-08-04 20:00</p></div></section><section class="doc" id="d20260803"><div class="doc-hd"><h2>2026-08-03 <span class="tag">08点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-08-03 07:53</span></div><div class="doc-bd"><h2>青岛教育情报日报</h2>
+<p><strong>执行时间</strong>：2026-08-03 08:00（早间档）</p>
+<p><strong>搜集范围</strong>：2026-07-28 至 2026-08-03 期间青岛教育相关动态，兼顾本季度重要政策背景</p>
+<p><strong>执行轮次</strong>：第 1 次</p>
+<hr>
+<h3>一、本次搜集概要</h3>
+<div class="tw"><table><thead><tr><th>指标</th><th>数值</th></tr></thead><tbody><tr><td>已检查搜索关键词</td><td>7 组</td></tr><tr><td>命中信息总数</td><td>12 条</td></tr><tr><td>高重要度</td><td>4 条</td></tr><tr><td>中重要度</td><td>5 条</td></tr><tr><td>低重要度</td><td>3 条</td></tr><tr><td>时间范围</td><td>2026-03-30 至 2026-07-28</td></tr></tbody></table></div>
+<blockquote><strong>说明</strong>：本时段（最近 24-48 小时）未发现 8 月 1-2 日发布的青岛教育新政。下文汇总了近 1 个月内仍处于执行期/公示期、对秋季学期有实质影响的重要信息，以及 7 月下旬最新动态。</blockquote>
+<hr>
+<h3>二、青岛本地教育情报</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>青岛市教育局</td><td>关于公布2026年青岛市中小学暑假期间规范办学行为监督举报方式的通告</td><td>公布市、区两级监督举报电话，严禁暑期集体补课或提前返校</td><td>2026-07-28</td><td>中</td></tr><tr><td>青岛日报社/观海新闻</td><td>青岛多个区市发布2026年教育工作要点</td><td>市南/市北/李沧/崂山/西海岸/城阳/胶州2026年教育重点全面布局，含新建校、AI教育</td><td>2026-03-10</td><td>中</td></tr><tr><td>青岛广电·教育频道</td><td>正式任命！青岛58中原校长袁国彬出任青岛杜威教育集团总校长</td><td>袁国彬受聘杜威教育集团总校长，王永刚任初中部校长</td><td>2026-04-09</td><td>中</td></tr><tr><td>腾讯新闻</td><td>刘花兰校长带着"活力教学"来到胶州 开启博雅中学发展新篇章</td><td>7月14日全国优秀教师刘花兰出任青岛胶州博雅中学总校长</td><td>2026-07-14</td><td>中</td></tr><tr><td>青岛市教育局</td><td>青岛市教育局关于做好2026年全市初中学业水平考试与普通高中招生工作的通知</td><td>2026中考6项微改革：新增局属普高学位814个、指标生+609个、D等级降至15%</td><td>2026-03-30</td><td>高</td></tr><tr><td>青岛日报社/观海新闻</td><td>事关义务教育招生！青岛多区市最新发布（市南/市北/李沧/崂山）</td><td>市南班、市北第一实验学校启用、崂山一中启用、李沧石牛山路学校启用</td><td>2026-05-08</td><td>高</td></tr><tr><td>青岛日报社/观海新闻</td><td>四区中小学招生新政，家长请查收！（学区调整详细版）</td><td>实验学校中韩校区2026停招、浮山后片区首次5所初中派位录取</td><td>2026-05-08</td><td>高</td></tr><tr><td>青岛市教育局</td><td>青岛市教育局关于做好2026年全市义务教育学校招生入学工作的通知</td><td>2026义务教育招生：公民同招、均衡编班、双胞胎捆绑派位、严禁特长生</td><td>2026-04-30</td><td>高</td></tr><tr><td>半岛网/腾讯新闻</td><td>细读青岛中考"微改革"，看懂六大利好不迷茫</td><td>前四所高中携手扩招649个学位，志愿类型简化为4类</td><td>2026-03-31</td><td>中</td></tr><tr><td>青岛早报/观海新闻</td><td>"西提中扩东优"，布局"最优教育"生态</td><td>市南中片/东片学区优化，青岛实验初中设立市南中片班</td><td>2025-04-17</td><td>低</td></tr></tbody></table></div>
+<hr>
+<h3>三、山东省层面教育情报（关联青岛）</h3>
+<div class="tw"><table><thead><tr><th>信息来源</th><th>标题</th><th>摘要</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>山东省教育厅</td><td>我省在2026年度全国基础教育重点工作部署会上作经验交流</td><td>山东作为全国中考改革试点省份介绍经验：分数+等级、指标到校60%、普职互转</td><td>2026-02-09</td><td>中</td></tr><tr><td>大众日报</td><td>从"应试"到"育人"，构建多元招考新范式——中考改革的"山东经验"</td><td>16市全部"学完即考"；359所高中"一校一案"自招3.3万人</td><td>2026-05-23</td><td>中</td></tr><tr><td>山东大学官网</td><td>山东大学多人职务调整：刘健、郑敬斌分别出任青岛校区党工委书记、副书记</td><td>1984年郑敬斌出任青岛校区专职副书记，邢占军卸任</td><td>2026-07-13</td><td>中</td></tr></tbody></table></div>
+<hr>
+<h3>四、2026 秋季学期关键时间节点提醒</h3>
+<ul><li><strong>2026-08-01</strong>：全市中职学校录取结束（已完成）</li><li><strong>2026-08 中下旬</strong>：高一新生军训、新生报到</li><li><strong>2026-09-01</strong>：秋季学期开学（按往年校历）</li></ul>
+<hr>
+<h3>五、核心关注事项（秋季学期前重点跟踪）</h3>
+<ol><li><strong>市南班政策落地</strong>：青岛二十六中教育集团"市南班"、青岛五十七中"市南东片班"、海信学校"市南东一班"将于秋季首次招生</li><li><strong>多所新校启用</strong>：市北第一实验学校、崂山一中、李沧石牛山路学校、青岛五十八中附属实验学校</li><li><strong>浮山后片区变化</strong>：2026年首次5所初中电脑派位录取（新增市北第一实验学校）</li><li><strong>指标生扩量</strong>：局属10所公办普高指标生较去年增加609人，对薄弱初中利好</li><li><strong>职普互转</strong>：实施细则已发布，秋季入学后观察首轮互转申请情况</li></ol>
+<hr>
+<h3>六、已检查搜索关键词</h3>
+<ol><li>✅ "青岛教育局 最新通知 政策 2026"</li><li>✅ "青岛 中考 招生 政策变化 2026"</li><li>✅ "青岛 小升初 学区 划片 调整"</li><li>✅ "青岛 学校 校长 人事变动 调整"</li><li>✅ "山东省教育厅 中考改革 2026"</li><li>✅ "青岛 高中 招生计划 变化"</li><li>✅ "青岛市南区 市北区 李沧区 教体局 通知"</li></ol>
+<hr>
+<h3>七、本次搜集说明</h3>
+<p>本次搜集的搜索结果时间分布跨度为 2025-04 至 2026-07-28。最近 24-48 小时（2026-08-01 至 2026-08-02）内未检索到青岛教育系统重大新政或突发新闻发布。判断当前处于"中考后-开学前"的政策静默期，重要信息已在 5-7 月集中发布完毕。</p>
+<p>建议持续关注：</p>
+<ul><li>青岛市教育局官网（http://edu.qingdao.gov.cn）"通知公告"栏目</li><li>青岛日报社/观海新闻</li><li>各区（市）教体局官网（尤其是开学前一周的校历/新生报到通知）</li></ul></div></section><section class="doc" id="d20260802"><div class="doc-hd"><h2>2026-08-02 <span class="tag">15点档</span><span class="badge">含高重要度</span></h2><span class="mt">生成于 2026-08-02 15:17</span></div><div class="doc-bd"><h2>青岛教育情报搜集报告</h2>
+<p><strong>搜集时间</strong>：2026-08-02 15:12</p>
+<p><strong>搜集关键词</strong>：7组</p>
+<p><strong>有效信息条数</strong>：9条</p>
+<p><strong>高重要度</strong>：3条 | <strong>中重要度</strong>：4条 | <strong>低重要度</strong>：2条</p>
+<hr>
+<h3>情报汇总表</h3>
+<div class="tw"><table><thead><tr><th>序号</th><th>信息来源</th><th>标题</th><th>摘要（50字以内）</th><th>发布时间</th><th>重要程度</th></tr></thead><tbody><tr><td>1</td><td>青岛市教育局官网</td><td>2026年中考招生政策发布</td><td>局属公办普高新增814个学位，指标生增609个，D等级降至15%，普职互转细则出台</td><td>2026-03-30</td><td>高</td></tr><tr><td>2</td><td>青岛市教育局/各区教体局</td><td>四区义务教育招生政策发布</td><td>市南设"市南班"，市北浮山后五校派位，李沧启用石牛山路学校，崂山一中启用</td><td>2026-05-08</td><td>高</td></tr><tr><td>3</td><td>市南/市北/李沧/崂山教体局</td><td>四区2027年小学入学学位预警</td><td>市南3所、市北10所、李沧3所小学发布学位预警，设落户时限门槛</td><td>2026-07-25</td><td>高</td></tr><tr><td>4</td><td>青岛市教育局官网</td><td>暑假规范办学行为监督举报通告</td><td>严禁暑假集体补课和提前返校，公布市区两级监督举报方式</td><td>2026-07-28</td><td>中</td></tr><tr><td>5</td><td>青岛市教育局官网</td><td>社会组织负责人人选公示</td><td>逄淑萍拟任青岛国开一中校长，韩芙倩拟任华夏职技专修学院理事长</td><td>2026-07-21</td><td>中</td></tr><tr><td>6</td><td>市南区政府官网</td><td>"十五五"教育体育事业发展规划编制意见征集</td><td>市南区公开征集教育体育事业发展规划编制意见建议</td><td>2026-07-27</td><td>中</td></tr><tr><td>7</td><td>山东省教育厅</td><td>山东中考改革经验在全国会议交流</td><td>山东作为全国中考改革试点，16市"学完即考"，推行"分数+等级"模式</td><td>2026-02-09</td><td>中</td></tr><tr><td>8</td><td>网络自媒体</td><td>山东大学青岛校区人事调整</td><td>刘健任青岛校区党工委书记，郑敬斌任副书记（高校层面，非基础教育）</td><td>2026-07-13</td><td>低</td></tr><tr><td>9</td><td>网络自媒体</td><td>胶州博雅中学换校长</td><td>全国优秀教师刘花兰出任胶州博雅中学总校长（民办学校，待核实）</td><td>2026-07-14</td><td>低</td></tr></tbody></table></div>
+<hr>
+<h3>高重要度信息详情</h3>
+<h4>1. 2026年青岛中考招生六大"微改革"</h4>
+<p><strong>核心变化</strong>：</p>
+<ul><li><strong>学位扩容</strong>：局属公办普高新增814个学位，一中新榉林校区+90、二中蓝谷学校新增240、九中礼贤校区+100、五十八中高新校区+100</li><li><strong>志愿简化</strong>：特色班与普通班合并为统招班，志愿类型简化为自招班/统招班/艺体班/国际班四类</li><li><strong>指标生增加</strong>：10所局属公办普高指标生名额增加609个</li><li><strong>等级优化</strong>：第一、二组合D等级比例从25%降至15%，B/C等级各提至35%</li><li><strong>录取统一</strong>：投档和录取均采用"语数英总分+政策性加分"</li><li><strong>普职互转</strong>：出台实施细则，24所公办普高作为试点，7个互转区域</li></ul>
+<p><strong>对你教学的影响</strong>：</p>
+<ul><li>等级比例调整后，更多学生能达到公办普高录取门槛，家长对等级科目的焦虑会降低</li><li>志愿类型简化，填报逻辑更清晰，家长咨询时更容易解释</li><li>普职互转给学生"二次选择"机会，可能影响部分边缘学生的升学路径决策</li><li>2028年起取消非国家规定加分项目，需提前告知相关学生家长</li></ul>
+<h4>2. 四区义务教育招生政策重大变化</h4>
+<p><strong>市南区</strong>：</p>
+<ul><li>26中教育集团首设"市南班"，面向全区小学毕业生招生</li><li>51中启用连云港路新校区，加挂"市南区实验初级中学"</li><li>燕儿岛路第一小学学区并入金门路、宁德路、澳门路小学</li></ul>
+<p><strong>市北区</strong>：</p>
+<ul><li>浮山后片区首次五校电脑派位（新增第一实验学校）</li><li>第一实验学校纳入二实验初中教育集团</li></ul>
+<p><strong>李沧区</strong>：</p>
+<ul><li>石牛山路学校启用（九年一贯制）</li><li>二十七中暂停招收初一新生</li><li>成立六十三中、枣山小学两个教育集团</li></ul>
+<p><strong>崂山区</strong>：</p>
+<ul><li>崂山一中正式启用</li><li>实验学校中韩校区停止招生</li></ul>
+<h4>3. 四区2027年小学入学学位预警</h4>
+<p><strong>市南区</strong>（3所）：大学路小学、文登路小学、市实验小学，落户限2026年9月1日前</p>
+<p><strong>市北区</strong>（10所）：第二实验小学、桦川路小学、福州路小学、富源路小学、宁安路小学、同安路小学、同德小学、启元学校、立新小学、第一实验学校，落户限2026年7月31日前</p>
+<p><strong>李沧区</strong>（3所）：实验小学、沧口学校（小学部）、枣山小学，落户限2026年8月1日前</p>
+<hr>
+<h3>搜索关键词记录</h3>
+<ol><li>"青岛教育局 最新通知 政策 2026"</li><li>"青岛 中考 招生 政策变化 2026"</li><li>"青岛 小升初 学区 划片 调整 2026"</li><li>"青岛 学校 校长 人事变动 调整 2026"</li><li>"山东省教育厅 中考改革 2026"</li><li>"青岛 高中 招生计划 变化 2026"</li><li>"青岛市南区 市北区 李沧区 教体局 通知 2026"</li></ol></div></section>
+</main></div></body></html>
